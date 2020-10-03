@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Fetch CurseForge addons
     steps:
+    - uses: actions/checkout@v2
     - name: Bash
       run: |
         echo "some data for the file" > catalog.json
