@@ -1,15 +1,16 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  fetch:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Fetch CurseForge addons
     steps:
-    - name: Hello world action step
-      id: hello
-      uses: actions/hello-world-docker-action@v1
-      with:
-        who-to-greet: 'Mona the Octocat'
-    # Use the output from the `hello` step
-    - name: Get addons
-      run: echo "${{ steps.hello.outputs.addons }}"
+    - uses: actions/checkout@v2
+    - name: Bash
+      run: |
+        echo "some data for the file" > catalog.json
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "updated catalog"
+        git push
