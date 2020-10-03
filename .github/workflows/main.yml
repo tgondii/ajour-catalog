@@ -6,7 +6,7 @@ jobs:
     name: Addons
     steps:
     - name: Fetch addons
-    - run: |
+      run: |
         index=0
         page_size=500
         number_of_addons=$page_size
