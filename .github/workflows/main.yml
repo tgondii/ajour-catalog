@@ -12,4 +12,9 @@ jobs:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
     - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+      uses: DamianReeves/write-file-action
+      with:
+        path: addons.json
+        contents: |
+          echo ${{ steps.hello.outputs.addons }}"
+        write-mode: overwrite
