@@ -8,7 +8,7 @@ jobs:
     name: Fetch CurseForge addons
     steps:
     - uses: actions/checkout@v2
-    - name: Bash
+    - name: Action
       run: |
         index=0
         page_size=500
