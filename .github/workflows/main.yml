@@ -18,7 +18,7 @@ jobs:
           data=$(curl -s $curse_endpoint)
           number_of_addons=$(echo "$data" | jq '. | length')
           echo $(echo "$data" | jq 'map({"id": .id, "name": .name, "summary": .summary, "numberOfDownloads": .downloadCount, "categories": [.categories[] | .name], "source": "curse" })') > new.json
-          addons=$(echo $addons | jq --argfile n new.json '. + $n')
+          addons=$(echo $addons | jq -c --argfile n new.json '. + $n')
           index=$(( $index + $page_size ))
         done
         echo $addons > catalog.json
