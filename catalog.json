@@ -3,7 +3,7 @@
     "id": "3",
     "name": "AddOnSkins",
     "summary": "Skins for AddOns",
-    "numberOfDownloads": 1370091,
+    "numberOfDownloads": 1370097,
     "categories": [
       "Skins"
     ],
@@ -463,7 +463,7 @@
     "id": "137",
     "name": "Floating Combat Text",
     "summary": "ElvUI: Floating Combat Text",
-    "numberOfDownloads": 85174,
+    "numberOfDownloads": 85176,
     "categories": [
       "Combat"
     ],
@@ -713,7 +713,7 @@
     "id": "92",
     "name": "Souschef's UI",
     "summary": "Souschef's UI is a custom interface based on ElvUI. ",
-    "numberOfDownloads": 7859,
+    "numberOfDownloads": 7860,
     "categories": [
       "Plugins: ElvUI"
     ],
@@ -4804,6 +4804,16 @@
     "source": "curse"
   },
   {
+    "id": 390790,
+    "name": "LootReserve",
+    "summary": "UI and chat commands to allow WoW Classic players to reserve item in raids",
+    "numberOfDownloads": 18242,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 20555,
     "name": "Gnosis (Castbars and Timers)",
     "summary": "Highly configurable castbar and single timer addon.",
@@ -6133,16 +6143,6 @@
       "Action Bars",
       "Unit Frames",
       "Healer"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 390790,
-    "name": "LootReserve",
-    "summary": "UI and chat commands to allow WoW Classic players to reserve item in raids",
-    "numberOfDownloads": 17108,
-    "categories": [
-      "Chat & Communication"
     ],
     "source": "curse"
   },
