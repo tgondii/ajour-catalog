@@ -21,7 +21,7 @@ jobs:
           addons=$(echo $addons | jq --argfile n new.json '. + $n')
           index=$(( $index + $page_size ))
         done
-        addons > catalog.json
+        echo $addons > catalog.json
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
