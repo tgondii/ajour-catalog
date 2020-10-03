@@ -1,16 +1,28 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  fetch:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Addons
     steps:
-    - uses: actions/checkout@v2
-    - name: Hello world action step
-      id: hello
-      uses: ./action.yml
-      with:
-        who-to-greet: 'Mona the Octocat'
-    # Use the output from the `hello` step
-    - name: Get addons
-      run: echo "${{ steps.hello.outputs.addons }}"
+    - name: Fetch addons
+    - run: |
+        index=0
+        page_size=500
+        number_of_addons=$page_size
+        addons=[]
+        while [ $number_of_addons == $page_size ]
+        do
+          curse_endpoint="https://addons-ecs.forgesvc.net/api/v2/addon/search?gameId=1&pageSize=${page_size}&index=${index}"
+          data=$(curl -s $curse_endpoint)
+          number_of_addons=$(echo "$data" | jq '. | length')
+          new=$(echo "$data" | jq 'map({"id": .id, "name": .name, "summary": .summary, "numberOfDownloads": .downloadCount, "categories": [.categories[] | .name], "source": "curse" })')
+          addons=$(echo $addons | jq --argjson n "$new" '. + $n')
+          index=$(( $index + $page_size ))
+        done
+        addons > catalog.json
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "updated catalog"
+        git push
