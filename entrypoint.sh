@@ -11,10 +11,9 @@ do
   curse_endpoint="https://addons-ecs.forgesvc.net/api/v2/addon/search?gameId=1&pageSize=${page_size}&index=${index}"
   data=$(curl -s $curse_endpoint)
   number_of_addons=$(echo "$data" | jq '. | length')
-  new=$(echo "$data" | jq 'map({"id": .id, "name": .name, "summary": .summary, "numberOfDownloads": .downloadCount, "categories": [.categories[] | .name], "source": "curse" })')
-  addons=$(echo $addons | jq --argjson n "$new" '. + $n')
+  echo $(echo "$data" | jq 'map({"id": .id, "name": .name, "summary": .summary, "numberOfDownloads": .downloadCount, "categories": [.categories[] | .name], "source": "curse" })') > new.json
+  addons=$(echo $addons | jq --argfile n new.json '. + $n')
 
-  #sleep 1
   index=$(( $index + $page_size ))
 done
 
