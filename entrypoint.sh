@@ -1,19 +1,20 @@
-#!/bin/sh -l
+#!/usr/bin/env bash
 
 index=0
-page_size=5
-number_of_addons=0
-curse_endpoint="https://addons-ecs.forgesvc.net/api/v2/addon/search?gameId=1&pageSize=${page_size}"
-addons="a lot of addons"
+page_size=500
+# Assumes that we have atleast 1 page
+number_of_addons=$page_size
+addons=[]
 
-while [ $number_of_addons -le $page_size ]
+while [ $number_of_addons == $page_size ]
 do
-  data=$(curl -s curse_endpoint)
+  curse_endpoint="https://addons-ecs.forgesvc.net/api/v2/addon/search?gameId=1&pageSize=${page_size}&index=${index}"
+  data=$(curl -s $curse_endpoint)
+  number_of_addons=$(echo "$data" | jq '. | length')
+  new=$(echo "$data" | jq 'map({"id": .id, "name": .name, "summary": .summary, "numberOfDownloads": .downloadCount, "categories": [.categories[] | .name], "source": "curse" })')
+  addons=$(echo $addons | jq --argjson n "$new" '. + $n')
 
-  # number_of_addons = data.length
-  # concat addons.
-
-  sleep 1
+  #sleep 1
   index=$(( $index + $page_size ))
 done
 
