@@ -7,8 +7,7 @@ jobs:
     steps:
     - name: Bash
       run: |
-        addons="data"
-        addons > catalog.json
+        echo "some data for the file" > catalog.json
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
