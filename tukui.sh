@@ -22,7 +22,7 @@ jq -c \
     "name": .name,
     "summary": .small_desc|gsub("[\\r\\n\\t]"; ""),
     "numberOfDownloads": .downloads|tonumber,
-    "categories": [.category],
+    "categories": (if (.category == null) then [] else [.category] end),
     "flavors": .flavors,
     "source": "tukui"
   })' $all > $1
