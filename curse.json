@@ -3,11 +3,11 @@
     "id": 3358,
     "name": "Deadly Boss Mods (DBM)",
     "summary": "The ultimate encounter helper to give you fight info that's easy to process at a glance. DBM aims to focus on what's happening to you, and what YOU need to do about it.",
-    "numberOfDownloads": 291719921,
+    "numberOfDownloads": 291749118,
     "categories": [
-      "Boss Encounters",
+      "Combat",
       "PvP",
-      "Combat"
+      "Boss Encounters"
     ],
     "flavors": [
       "wow_classic",
@@ -19,11 +19,11 @@
     "id": 61284,
     "name": "Details! Damage Meter",
     "summary": "Complete combat analysis, gathering damage, healing, and other importante stuff.",
-    "numberOfDownloads": 57171003,
+    "numberOfDownloads": 57693073,
     "categories": [
+      "Boss Encounters",
       "PvP",
-      "Combat",
-      "Boss Encounters"
+      "Combat"
     ],
     "flavors": [
       "wow_classic",
@@ -70,11 +70,11 @@
     "id": 4646,
     "name": "Pawn",
     "summary": "Pawn helps you compare items and find upgrades.",
-    "numberOfDownloads": 39237182,
+    "numberOfDownloads": 39249716,
     "categories": [
+      "Quests & Leveling",
       "Bags & Inventory",
-      "Tooltip",
-      "Quests & Leveling"
+      "Tooltip"
     ],
     "flavors": [
       "wow_classic",
@@ -172,6 +172,23 @@
     "source": "curse"
   },
   {
+    "id": 26886,
+    "name": "TradeSkillMaster",
+    "summary": "Powerful addon to help you make gold from crafting to selling on the auction house to buying vendor items and much more!",
+    "numberOfDownloads": 27490978,
+    "categories": [
+      "Professions",
+      "Bags & Inventory",
+      "Enchanting",
+      "Auction & Economy"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 366310,
     "name": "Nova World Buffs",
     "summary": "Classic WoW world buff timers and pre buff drop warnings so you never miss a buff.",
@@ -191,10 +208,10 @@
     "id": 6124,
     "name": "Auctionator",
     "summary": "Makes posting, browsing and cancelling in the auction house easier.",
-    "numberOfDownloads": 28135386,
+    "numberOfDownloads": 28137959,
     "categories": [
-      "Auction & Economy",
-      "Tooltip"
+      "Tooltip",
+      "Auction & Economy"
     ],
     "flavors": [
       "wow_retail"
@@ -302,23 +319,6 @@
     "source": "curse"
   },
   {
-    "id": 26886,
-    "name": "TradeSkillMaster",
-    "summary": "Powerful addon to help you make gold from crafting to selling on the auction house to buying vendor items and much more!",
-    "numberOfDownloads": 27357247,
-    "categories": [
-      "Professions",
-      "Enchanting",
-      "Auction & Economy",
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 322362,
     "name": "Leatrix Plus (Classic)",
     "summary": "Powerful and modular quality of life and media player addon with a small resource footprint.",
@@ -353,7 +353,7 @@
     "id": 340903,
     "name": "ItemRack Classic",
     "summary": "Inventory Management Addon! Change your items quick and easy!",
-    "numberOfDownloads": 2515673,
+    "numberOfDownloads": 2528059,
     "categories": [
       "Bags & Inventory"
     ],
@@ -850,11 +850,11 @@
     "id": 89,
     "name": "Auctioneer",
     "summary": "The original AH AddOn",
-    "numberOfDownloads": 29325147,
+    "numberOfDownloads": 29325391,
     "categories": [
+      "Bags & Inventory",
       "Tooltip",
       "Professions",
-      "Bags & Inventory",
       "Auction & Economy",
       "Mail"
     ],
@@ -934,13 +934,13 @@
     "id": 35095,
     "name": "KuiNameplates",
     "summary": "Prettier nameplates.",
-    "numberOfDownloads": 8080846,
+    "numberOfDownloads": 8081600,
     "categories": [
-      "Tank",
       "Damage Dealer",
+      "Unit Frames",
+      "Tank",
       "Combat",
-      "PvP",
-      "Unit Frames"
+      "PvP"
     ],
     "flavors": [
       "wow_classic",
@@ -2178,11 +2178,11 @@
     "id": 314994,
     "name": "Deadly Boss Mods (DBM) - Old Dungeon Mods",
     "summary": "This mod will add support for 5 player dungeons from Classic to Legion",
-    "numberOfDownloads": 474217,
+    "numberOfDownloads": 483998,
     "categories": [
       "Boss Encounters",
-      "Combat",
-      "Quests & Leveling"
+      "Quests & Leveling",
+      "Combat"
     ],
     "flavors": [
       "wow_retail"
@@ -3441,22 +3441,6 @@
     "source": "curse"
   },
   {
-    "id": 322889,
-    "name": "ClassicLFG",
-    "summary": "LFG Tool for World of Warcraft: Classic",
-    "numberOfDownloads": 441619,
-    "categories": [
-      "Chat & Communication",
-      "Quests & Leveling",
-      "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 350446,
     "name": "EPGP-Classic",
     "summary": "Fork of: epgp (dkp Reloaded)",
@@ -3546,12 +3530,12 @@
     "id": 401253,
     "name": "Better Wardrobe and Transmog",
     "summary": "Allows you to Mog Sets from WoWHead, Incomplete sets and adds more features to the transmog & wardrobe collections.",
-    "numberOfDownloads": 36171,
+    "numberOfDownloads": 37632,
     "categories": [
-      "Bags & Inventory",
-      "Transmogrification",
       "Tooltip",
-      "Miscellaneous"
+      "Miscellaneous",
+      "Bags & Inventory",
+      "Transmogrification"
     ],
     "flavors": [
       "wow_retail"
@@ -4026,6 +4010,22 @@
       "Achievements"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 322889,
+    "name": "ClassicLFG",
+    "summary": "LFG Tool for World of Warcraft: Classic",
+    "numberOfDownloads": 443617,
+    "categories": [
+      "Boss Encounters",
+      "Chat & Communication",
+      "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -6417,12 +6417,12 @@
     "id": 293075,
     "name": "Twintop's Insanity Bar",
     "summary": "Insanity Bar for Shadow Priests, based on the WeakAura from Legion",
-    "numberOfDownloads": 138197,
+    "numberOfDownloads": 138205,
     "categories": [
-      "Priest",
       "Class",
-      "Damage Dealer",
-      "Caster"
+      "Priest",
+      "Caster",
+      "Damage Dealer"
     ],
     "flavors": [
       "wow_retail"
@@ -7451,7 +7451,7 @@
     "id": 254463,
     "name": "tdBattlePetScript",
     "summary": "Battle pet combat support scripting",
-    "numberOfDownloads": 189950,
+    "numberOfDownloads": 190052,
     "categories": [
       "Battle Pets"
     ],
@@ -8155,7 +8155,7 @@
     "id": 396972,
     "name": "Sorted.",
     "summary": "Modern and user-friendly bag interface with fast sorting and filtering.",
-    "numberOfDownloads": 22010,
+    "numberOfDownloads": 22099,
     "categories": [
       "Bags & Inventory"
     ],
@@ -13384,6 +13384,21 @@
     "source": "curse"
   },
   {
+    "id": 39743,
+    "name": "MistWeaver",
+    "summary": "a very special healer addon for the monk",
+    "numberOfDownloads": 305129,
+    "categories": [
+      "Class",
+      "Monk",
+      "Healer"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 88588,
     "name": "iLevel",
     "summary": "Shows equiped items itemlevel on Paperdoll frame view.",
@@ -15710,7 +15725,7 @@
     "id": 297511,
     "name": "Vendor",
     "summary": "The ultimate in configurable auto-selling of unwanted items in your bags whenever you visit a vendor. Customizable rules for selling and keeping items, plus blocklists, auto-repair and more!",
-    "numberOfDownloads": 41839,
+    "numberOfDownloads": 42049,
     "categories": [
       "Bags & Inventory",
       "Auction & Economy"
@@ -16470,21 +16485,6 @@
     "numberOfDownloads": 1414536,
     "categories": [
       "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 39743,
-    "name": "MistWeaver",
-    "summary": "a very special healer addon for the monk",
-    "numberOfDownloads": 304346,
-    "categories": [
-      "Class",
-      "Monk",
-      "Healer"
     ],
     "flavors": [
       "wow_retail"
@@ -19193,23 +19193,6 @@
     "source": "curse"
   },
   {
-    "id": 300361,
-    "name": "ElvUI WindTools",
-    "summary": "An ElvUI Plugin",
-    "numberOfDownloads": 134321,
-    "categories": [
-      "Bags & Inventory",
-      "Action Bars",
-      "Plugins",
-      "Miscellaneous",
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 321755,
     "name": "HealBot-ReadyCheckFixer",
     "summary": "Fixes the HealBot ReadyCheck feature. Checkmarks will display even if raid leaders don't have HealBot.",
@@ -20103,6 +20086,28 @@
     "source": "curse"
   },
   {
+    "id": 300361,
+    "name": "ElvUI WindTools",
+    "summary": "An ElvUI Plugin",
+    "numberOfDownloads": 134453,
+    "categories": [
+      "Bags & Inventory",
+      "Miscellaneous",
+      "Action Bars",
+      "Plugins",
+      "Chat & Communication",
+      "Miscellaneous",
+      "Action Bars",
+      "Plugins",
+      "Bags & Inventory",
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 43444,
     "name": "Friend List Colors",
     "summary": "Customize how your friends appear in your friends list!",
@@ -20154,6 +20159,23 @@
       "Boss Encounters"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 405267,
+    "name": "Clicked",
+    "summary": "Intuitive yet powerful keybind and clickbind management",
+    "numberOfDownloads": 1679,
+    "categories": [
+      "Buffs & Debuffs",
+      "Unit Frames",
+      "Healer",
+      "Combat"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -20252,23 +20274,6 @@
       "Plugins"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 405267,
-    "name": "Clicked",
-    "summary": "Intuitive yet powerful keybind and clickbind management",
-    "numberOfDownloads": 1607,
-    "categories": [
-      "Healer",
-      "Buffs & Debuffs",
-      "Combat",
-      "Unit Frames"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -34522,12 +34527,12 @@
     "id": 375578,
     "name": "Guildbook",
     "summary": "A guild addon",
-    "numberOfDownloads": 1329,
+    "numberOfDownloads": 1439,
     "categories": [
-      "Map & Minimap",
-      "Quests & Leveling",
+      "Professions",
       "Guild",
-      "Professions"
+      "Quests & Leveling",
+      "Map & Minimap"
     ],
     "flavors": [
       "wow_classic"
@@ -43460,10 +43465,10 @@
     "summary": "Adds gear slots to the default dressing room",
     "numberOfDownloads": 1172,
     "categories": [
+      "Roleplay",
       "Transmogrification",
       "Tooltip",
-      "Bags & Inventory",
-      "Roleplay"
+      "Bags & Inventory"
     ],
     "flavors": [
       "wow_retail"
@@ -47629,10 +47634,10 @@
     "id": 410116,
     "name": "Mega Macro",
     "summary": "Overhauled macro system for World of Warcraft",
-    "numberOfDownloads": 245,
+    "numberOfDownloads": 290,
     "categories": [
-      "Action Bars",
-      "Miscellaneous"
+      "Miscellaneous",
+      "Action Bars"
     ],
     "flavors": [
       "wow_retail"
@@ -55945,7 +55950,7 @@
     "id": 20253,
     "name": "Crafthelper",
     "summary": "A filtertool for Blizzards TradeSkillUI",
-    "numberOfDownloads": 7834,
+    "numberOfDownloads": 7858,
     "categories": [
       "Professions"
     ],
@@ -108175,7 +108180,7 @@
     "id": 409913,
     "name": "Classic Floating Combat Text",
     "summary": "Floating Combat Text Addon",
-    "numberOfDownloads": 53,
+    "numberOfDownloads": 61,
     "categories": [
       "Combat",
       "Damage Dealer"
@@ -113462,7 +113467,7 @@
     "id": 410714,
     "name": "OnCast (classic)",
     "summary": "Better, simple, flexible macros for announcing your spells and abilities",
-    "numberOfDownloads": 41,
+    "numberOfDownloads": 62,
     "categories": [
       "Chat & Communication"
     ],
