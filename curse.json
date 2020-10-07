@@ -35,13 +35,13 @@
     "id": 279257,
     "name": "Raider.IO Mythic Plus and Raid Progress",
     "summary": "This companion addon for Raider.IO shows Mythic Plus scores and Raid Progress when hovering over players.",
-    "numberOfDownloads": 103230757,
+    "numberOfDownloads": 103301779,
     "categories": [
-      "Chat & Communication",
-      "Boss Encounters",
-      "Guild",
       "Miscellaneous",
-      "Tooltip"
+      "Chat & Communication",
+      "Tooltip",
+      "Guild",
+      "Boss Encounters"
     ],
     "flavors": [
       "wow_classic",
@@ -364,20 +364,6 @@
     "source": "curse"
   },
   {
-    "id": 100547,
-    "name": "Plater Nameplates",
-    "summary": "Highly customizable nameplate with support to scripts and animations.",
-    "numberOfDownloads": 4319338,
-    "categories": [
-      "Unit Frames"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 26120,
     "name": "GatherMate2",
     "summary": "Collects Herbs, Mines, Gas Clouds, Archaeology, Treasure and Fishing locations and adds them to the worldmap and minimap",
@@ -389,6 +375,20 @@
       "Fishing"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 100547,
+    "name": "Plater Nameplates",
+    "summary": "Highly customizable nameplate with support to scripts and animations.",
+    "numberOfDownloads": 4355712,
+    "categories": [
+      "Unit Frames"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -422,20 +422,6 @@
     "source": "curse"
   },
   {
-    "id": 13501,
-    "name": "Bartender4",
-    "summary": "Simple and Advanced combined - Bartender4 ActionBar AddOn",
-    "numberOfDownloads": 43868196,
-    "categories": [
-      "Action Bars"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 338524,
     "name": "Details! Damage Meter Classic WoW",
     "summary": "The best damage meter in a exclusive version for Classic WoW",
@@ -451,16 +437,30 @@
     "source": "curse"
   },
   {
+    "id": 13501,
+    "name": "Bartender4",
+    "summary": "Simple and Advanced combined - Bartender4 ActionBar AddOn",
+    "numberOfDownloads": 43875140,
+    "categories": [
+      "Action Bars"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 267285,
     "name": "ALL THE THINGS",
     "summary": "Addon for Tracking Collections & Account Completion",
-    "numberOfDownloads": 6216092,
+    "numberOfDownloads": 6218464,
     "categories": [
+      "Battle Pets",
       "Quests & Leveling",
       "Transmogrification",
       "Boss Encounters",
-      "Professions",
-      "Battle Pets"
+      "Professions"
     ],
     "flavors": [
       "wow_classic",
@@ -549,20 +549,6 @@
     "source": "curse"
   },
   {
-    "id": 323806,
-    "name": "ClassicAuraDurations",
-    "summary": "Restores cooldown swipe timers on default Target Frame and Blizzard Raid Frames",
-    "numberOfDownloads": 5366290,
-    "categories": [
-      "Unit Frames",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 39928,
     "name": "RCLootCouncil",
     "summary": "Interface for running a Loot Council",
@@ -574,6 +560,20 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 323806,
+    "name": "ClassicAuraDurations",
+    "summary": "Restores cooldown swipe timers on default Target Frame and Blizzard Raid Frames",
+    "numberOfDownloads": 5370207,
+    "categories": [
+      "Unit Frames",
+      "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -662,12 +662,12 @@
     "id": 299093,
     "name": "NeatPlates",
     "summary": "NeatPlates is a nameplate addon that works with both the Classic and Modern version of WoW",
-    "numberOfDownloads": 3557086,
+    "numberOfDownloads": 3559817,
     "categories": [
-      "Combat",
-      "Unit Frames",
       "Artwork",
-      "Tank"
+      "Unit Frames",
+      "Tank",
+      "Combat"
     ],
     "flavors": [
       "wow_classic",
@@ -821,12 +821,16 @@
     "source": "curse"
   },
   {
-    "id": 6650,
-    "name": "Dominos",
-    "summary": "A main action bar replacement",
-    "numberOfDownloads": 11427073,
+    "id": 14647,
+    "name": "SilverDragon",
+    "summary": "Remember where rares were",
+    "numberOfDownloads": 7738759,
     "categories": [
-      "Action Bars"
+      "Map & Minimap",
+      "Chat & Communication",
+      "Achievements",
+      "Data Broker",
+      "Tooltip"
     ],
     "flavors": [
       "wow_classic",
@@ -851,13 +855,13 @@
     "id": 89,
     "name": "Auctioneer",
     "summary": "The original AH AddOn",
-    "numberOfDownloads": 29326770,
+    "numberOfDownloads": 29328244,
     "categories": [
-      "Mail",
-      "Bags & Inventory",
+      "Professions",
       "Tooltip",
+      "Bags & Inventory",
       "Auction & Economy",
-      "Professions"
+      "Mail"
     ],
     "flavors": [
       "wow_classic",
@@ -921,10 +925,10 @@
     "id": 29546,
     "name": "The Undermine Journal",
     "summary": "Auction house pricing data for your region and realm",
-    "numberOfDownloads": 9763522,
+    "numberOfDownloads": 9776414,
     "categories": [
-      "Tooltip",
-      "Auction & Economy"
+      "Auction & Economy",
+      "Tooltip"
     ],
     "flavors": [
       "wow_retail"
@@ -935,13 +939,13 @@
     "id": 35095,
     "name": "KuiNameplates",
     "summary": "Prettier nameplates.",
-    "numberOfDownloads": 8082528,
+    "numberOfDownloads": 8082823,
     "categories": [
-      "Combat",
-      "Unit Frames",
       "Damage Dealer",
+      "Tank",
+      "Unit Frames",
       "PvP",
-      "Tank"
+      "Combat"
     ],
     "flavors": [
       "wow_classic",
@@ -978,6 +982,20 @@
     "source": "curse"
   },
   {
+    "id": 6650,
+    "name": "Dominos",
+    "summary": "A main action bar replacement",
+    "numberOfDownloads": 11446844,
+    "categories": [
+      "Action Bars"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 7950,
     "name": "VuhDo",
     "summary": "Raid Frames providing click-heal functionality, buff and debuff control, main tank management and much more.",
@@ -987,25 +1005,6 @@
       "Healer",
       "Unit Frames",
       "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13592,
-    "name": "Masque",
-    "summary": "A skinning engine for button-based add-ons.",
-    "numberOfDownloads": 3638797,
-    "categories": [
-      "Libraries",
-      "Artwork",
-      "Action Bars",
-      "Buffs & Debuffs",
-      "Libraries",
-      "Bags & Inventory"
     ],
     "flavors": [
       "wow_classic",
@@ -1072,20 +1071,6 @@
     "source": "curse"
   },
   {
-    "id": 82745,
-    "name": "Simulationcraft",
-    "summary": "An addon that generates a Simulationcraft profile for your character",
-    "numberOfDownloads": 11817278,
-    "categories": [
-      "Development Tools",
-      "Data Export"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 358359,
     "name": "HandyNotes: Visions of N'Zoth",
     "summary": "Rares, treasures, battle pets and more from the 8.3 assaults.",
@@ -1110,6 +1095,24 @@
     ],
     "flavors": [
       "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 13592,
+    "name": "Masque",
+    "summary": "A skinning engine for button-based add-ons.",
+    "numberOfDownloads": 3648141,
+    "categories": [
+      "Artwork",
+      "Buffs & Debuffs",
+      "Bags & Inventory",
+      "Action Bars",
+      "Libraries"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
     ],
     "source": "curse"
   },
@@ -1150,12 +1153,12 @@
     "id": 21217,
     "name": "Threat Plates",
     "summary": "Nameplates that scale and change color depending on their threat levels.",
-    "numberOfDownloads": 9078457,
+    "numberOfDownloads": 9079183,
     "categories": [
-      "Unit Frames",
-      "Tank",
+      "Class",
       "PvP",
-      "Class"
+      "Unit Frames",
+      "Tank"
     ],
     "flavors": [
       "wow_retail"
@@ -1176,20 +1179,16 @@
     "source": "curse"
   },
   {
-    "id": 14647,
-    "name": "SilverDragon",
-    "summary": "Remember where rares were",
-    "numberOfDownloads": 7713259,
+    "id": 361516,
+    "name": "HealBot Classic",
+    "summary": "HealBot Classic",
+    "numberOfDownloads": 553403,
     "categories": [
-      "Achievements",
-      "Data Broker",
-      "Map & Minimap",
-      "Chat & Communication",
-      "Tooltip"
+      "Unit Frames",
+      "Healer"
     ],
     "flavors": [
-      "wow_classic",
-      "wow_retail"
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -1289,16 +1288,16 @@
     "source": "curse"
   },
   {
-    "id": 361516,
-    "name": "HealBot Classic",
-    "summary": "HealBot Classic",
-    "numberOfDownloads": 536804,
+    "id": 82745,
+    "name": "Simulationcraft",
+    "summary": "An addon that generates a Simulationcraft profile for your character",
+    "numberOfDownloads": 11831980,
     "categories": [
-      "Healer",
-      "Unit Frames"
+      "Development Tools",
+      "Data Export"
     ],
     "flavors": [
-      "wow_classic"
+      "wow_retail"
     ],
     "source": "curse"
   },
@@ -1428,11 +1427,11 @@
     "id": 29767,
     "name": "FarmHud",
     "summary": "Turns your minimap into a hud for gathering resources!",
-    "numberOfDownloads": 941786,
+    "numberOfDownloads": 942361,
     "categories": [
       "Mining",
-      "Herbalism",
-      "Map & Minimap"
+      "Map & Minimap",
+      "Herbalism"
     ],
     "flavors": [
       "wow_classic",
@@ -1586,7 +1585,7 @@
     "id": 366826,
     "name": "Auctionator ClassicFix",
     "summary": "Simple Auction addon, makes easier to search and sorts itemstacks by per-item prices",
-    "numberOfDownloads": 267101,
+    "numberOfDownloads": 267830,
     "categories": [
       "Auction & Economy"
     ],
@@ -1659,29 +1658,14 @@
     "source": "curse"
   },
   {
-    "id": 338498,
-    "name": "Threat Plates (Classic)",
-    "summary": "Customizable nameplates",
-    "numberOfDownloads": 1334378,
-    "categories": [
-      "Unit Frames",
-      "Class",
-      "Tank"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 286675,
     "name": "Instance Achievement Tracker",
     "summary": "Track the completion and failure of achievements in raids and dungeons",
-    "numberOfDownloads": 806701,
+    "numberOfDownloads": 819329,
     "categories": [
-      "Achievements",
+      "Boss Encounters",
       "Combat",
-      "Boss Encounters"
+      "Achievements"
     ],
     "flavors": [
       "wow_retail"
@@ -1720,20 +1704,6 @@
     "source": "curse"
   },
   {
-    "id": 340803,
-    "name": "AceGUI-3.0: SFX Widgets",
-    "summary": "Custom widgets for AceGUI-3.0 and AceConfigDialog-3.0.",
-    "numberOfDownloads": 59371,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 325741,
     "name": "CEPGP",
     "summary": "A loot distribution addon designed for use by guilds using EPGP.",
@@ -1755,6 +1725,20 @@
       "Miscellaneous"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 269544,
+    "name": "Nameplate Scrolling Combat Text",
+    "summary": "Simple scrolling combat text attached to nameplates.",
+    "numberOfDownloads": 695227,
+    "categories": [
+      "Combat"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -1806,20 +1790,6 @@
     "source": "curse"
   },
   {
-    "id": 269544,
-    "name": "Nameplate Scrolling Combat Text",
-    "summary": "Simple scrolling combat text attached to nameplates.",
-    "numberOfDownloads": 694402,
-    "categories": [
-      "Combat"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 101136,
     "name": "GladiatorlosSA2",
     "summary": "A PvP announcer addon that vocalizes many spells cast by your opponents.",
@@ -1830,6 +1800,20 @@
       "PvP"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 340803,
+    "name": "AceGUI-3.0: SFX Widgets",
+    "summary": "Custom widgets for AceGUI-3.0 and AceConfigDialog-3.0.",
+    "numberOfDownloads": 68866,
+    "categories": [
+      "Libraries"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -1989,6 +1973,21 @@
     "flavors": [
       "wow_classic",
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 338498,
+    "name": "Threat Plates (Classic)",
+    "summary": "Customizable nameplates",
+    "numberOfDownloads": 1338032,
+    "categories": [
+      "Unit Frames",
+      "Tank",
+      "Class"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -2323,6 +2322,19 @@
     "source": "curse"
   },
   {
+    "id": 313543,
+    "name": "BestKeystone",
+    "summary": "Shows rank of dungeon/classes/specs/compositions",
+    "numberOfDownloads": 1054404,
+    "categories": [
+      "Tooltip"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 102309,
     "name": "HandyNotes: Long Forgotten Hippogryph",
     "summary": "Find five Ephemeral Crystals, get a pink hippogryph",
@@ -2332,19 +2344,6 @@
       "Quests & Leveling",
       "Map & Minimap",
       "Companions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 313543,
-    "name": "BestKeystone",
-    "summary": "Shows rank of dungeon/classes/specs/compositions",
-    "numberOfDownloads": 1052741,
-    "categories": [
-      "Tooltip"
     ],
     "flavors": [
       "wow_retail"
@@ -2387,10 +2386,10 @@
     "id": 2450,
     "name": "MikScrollingBattleText",
     "summary": "MikScrollingBattleText",
-    "numberOfDownloads": 16126011,
+    "numberOfDownloads": 16134509,
     "categories": [
-      "Combat",
-      "PvP"
+      "PvP",
+      "Combat"
     ],
     "flavors": [
       "wow_retail"
@@ -2730,6 +2729,23 @@
     "source": "curse"
   },
   {
+    "id": 253814,
+    "name": "Easy Frames",
+    "summary": "Make your unit frames colored and glorious.",
+    "numberOfDownloads": 496731,
+    "categories": [
+      "Unit Frames",
+      "Buffs & Debuffs",
+      "PvP",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 327139,
     "name": "Guidelime",
     "summary": "A WoW Classic addon for leveling guides with automatic progress updates",
@@ -2753,23 +2769,6 @@
       "Quests & Leveling"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 253814,
-    "name": "Easy Frames",
-    "summary": "Make your unit frames colored and glorious.",
-    "numberOfDownloads": 496220,
-    "categories": [
-      "Unit Frames",
-      "Buffs & Debuffs",
-      "Artwork",
-      "PvP"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -2854,21 +2853,6 @@
     "source": "curse"
   },
   {
-    "id": 101192,
-    "name": "NameplateAuras",
-    "summary": "Displays people's buffs/debuffs above their nameplates",
-    "numberOfDownloads": 506958,
-    "categories": [
-      "PvP",
-      "Boss Encounters",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 20782,
     "name": "_NPCScan.Overlay",
     "summary": "Adds mob patrol paths to your map.",
@@ -2891,6 +2875,21 @@
     "categories": [
       "Combat",
       "Boss Encounters"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 101192,
+    "name": "NameplateAuras",
+    "summary": "Displays people's buffs/debuffs above their nameplates",
+    "numberOfDownloads": 510141,
+    "categories": [
+      "Buffs & Debuffs",
+      "Boss Encounters",
+      "PvP"
     ],
     "flavors": [
       "wow_retail"
@@ -3053,6 +3052,22 @@
     "source": "curse"
   },
   {
+    "id": 390738,
+    "name": "CommunityDKP",
+    "summary": "The Premiere DKP Management Tool",
+    "numberOfDownloads": 69040,
+    "categories": [
+      "Boss Encounters",
+      "Guild",
+      "Chat & Communication",
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 98966,
     "name": "MaxDps Hunter",
     "summary": "Hunter module for MaxDps addon",
@@ -3114,6 +3129,19 @@
     "flavors": [
       "wow_classic",
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 350446,
+    "name": "EPGP-Classic",
+    "summary": "Fork of: epgp (dkp Reloaded)",
+    "numberOfDownloads": 151016,
+    "categories": [
+      "Guild"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -3220,6 +3248,23 @@
     ],
     "flavors": [
       "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 401253,
+    "name": "Better Wardrobe and Transmog",
+    "summary": "Allows you to Mog Sets from WoWHead, Incomplete sets and adds more features to the transmog & wardrobe collections.",
+    "numberOfDownloads": 41232,
+    "categories": [
+      "Roleplay",
+      "Transmogrification",
+      "Bags & Inventory",
+      "Miscellaneous",
+      "Tooltip"
+    ],
+    "flavors": [
       "wow_retail"
     ],
     "source": "curse"
@@ -3333,24 +3378,6 @@
     "source": "curse"
   },
   {
-    "id": 94310,
-    "name": "GW2 ui",
-    "summary": "Hud replacement addon ",
-    "numberOfDownloads": 1181777,
-    "categories": [
-      "Unit Frames",
-      "Buffs & Debuffs",
-      "Artwork",
-      "HUDs",
-      "Action Bars"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 91983,
     "name": "MaxDps Warlock",
     "summary": "Warlock module for MaxDps addon",
@@ -3361,23 +3388,6 @@
       "Warlock",
       "Class",
       "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 401253,
-    "name": "Better Wardrobe and Transmog",
-    "summary": "Allows you to Mog Sets from WoWHead, Incomplete sets and adds more features to the transmog & wardrobe collections.",
-    "numberOfDownloads": 40593,
-    "categories": [
-      "Roleplay",
-      "Bags & Inventory",
-      "Transmogrification",
-      "Tooltip",
-      "Miscellaneous"
     ],
     "flavors": [
       "wow_retail"
@@ -3459,15 +3469,20 @@
     "source": "curse"
   },
   {
-    "id": 350446,
-    "name": "EPGP-Classic",
-    "summary": "Fork of: epgp (dkp Reloaded)",
-    "numberOfDownloads": 145036,
+    "id": 94310,
+    "name": "GW2 ui",
+    "summary": "Hud replacement addon ",
+    "numberOfDownloads": 1182039,
     "categories": [
-      "Guild"
+      "HUDs",
+      "Unit Frames",
+      "Artwork",
+      "Action Bars",
+      "Buffs & Debuffs"
     ],
     "flavors": [
-      "wow_classic"
+      "wow_classic",
+      "wow_retail"
     ],
     "source": "curse"
   },
@@ -3587,6 +3602,24 @@
     "source": "curse"
   },
   {
+    "id": 13594,
+    "name": "Masque: Caith",
+    "summary": "Caith skin for Masque.",
+    "numberOfDownloads": 578044,
+    "categories": [
+      "Plugins",
+      "Buffs & Debuffs",
+      "Bags & Inventory",
+      "Action Bars",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 4344,
     "name": "Accountant Classic",
     "summary": "A basic tool to track your monetary incomings and outgoings within WoW.",
@@ -3630,22 +3663,6 @@
     ],
     "flavors": [
       "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 101590,
-    "name": "ElvUI Enhanced Again (BfA)",
-    "summary": "Plugin-Enhancements for ElvUI.",
-    "numberOfDownloads": 898146,
-    "categories": [
-      "Plugins",
-      "Action Bars",
-      "Miscellaneous",
-      "Map & Minimap"
-    ],
-    "flavors": [
       "wow_retail"
     ],
     "source": "curse"
@@ -3773,6 +3790,24 @@
     "source": "curse"
   },
   {
+    "id": 101590,
+    "name": "ElvUI Enhanced Again (BfA)",
+    "summary": "Plugin-Enhancements for ElvUI.",
+    "numberOfDownloads": 898255,
+    "categories": [
+      "Action Bars",
+      "Map & Minimap",
+      "Map & Minimap",
+      "Miscellaneous",
+      "Miscellaneous",
+      "Plugins"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 334762,
     "name": "Druid Bar Classic",
     "summary": "Druid Bar is a movable mana bar that keeps track of your current mana, even in a shapeshifted form like bear or cat.",
@@ -3858,6 +3893,19 @@
     "source": "curse"
   },
   {
+    "id": 321885,
+    "name": "Azeroth Auto Pilot - Classic",
+    "summary": "Speed leveling addon for World of Warcraft - Classic, level 1-60, it tells you what to do and an arrow shows you where to go",
+    "numberOfDownloads": 1033067,
+    "categories": [
+      "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 298607,
     "name": "Coordinates by TomCat's Tours (Retail + Classic)",
     "summary": "Coordinates by TomCat's Tours (Retail + Classic)",
@@ -3881,19 +3929,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 321885,
-    "name": "Azeroth Auto Pilot - Classic",
-    "summary": "Speed leveling addon for World of Warcraft - Classic, level 1-60, it tells you what to do and an arrow shows you where to go",
-    "numberOfDownloads": 1032979,
-    "categories": [
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -3980,24 +4015,6 @@
       "Map & Minimap"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 92871,
-    "name": "Diminish DR Tracker (Classic & Retail)",
-    "summary": "Lightweight diminishing returns tracker for all unitframes.",
-    "numberOfDownloads": 447815,
-    "categories": [
-      "Arena",
-      "PvP",
-      "Battleground",
-      "Buffs & Debuffs",
-      "Combat"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -4115,24 +4132,6 @@
       "Achievements"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13594,
-    "name": "Masque: Caith",
-    "summary": "Caith skin for Masque.",
-    "numberOfDownloads": 571459,
-    "categories": [
-      "Artwork",
-      "Plugins",
-      "Action Bars",
-      "Bags & Inventory",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -4275,6 +4274,24 @@
     "categories": [
       "Data Export",
       "Auction & Economy"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 92871,
+    "name": "Diminish DR Tracker (Classic & Retail)",
+    "summary": "Lightweight CC diminishing returns tracker for all unitframes.",
+    "numberOfDownloads": 450919,
+    "categories": [
+      "PvP",
+      "Buffs & Debuffs",
+      "Battleground",
+      "Arena",
+      "Combat"
     ],
     "flavors": [
       "wow_classic",
@@ -4449,11 +4466,11 @@
     "id": 353296,
     "name": "TranqRotate",
     "summary": "A classic tranqshot rotation assistant",
-    "numberOfDownloads": 40320,
+    "numberOfDownloads": 40392,
     "categories": [
-      "Hunter",
       "Boss Encounters",
-      "Combat"
+      "Combat",
+      "Hunter"
     ],
     "flavors": [
       "wow_classic"
@@ -4538,23 +4555,6 @@
     "source": "curse"
   },
   {
-    "id": 384785,
-    "name": "Altoholic-Retail (Teelo's Fork)",
-    "summary": " Provides information about your alts - Retail maintenance by Teelo",
-    "numberOfDownloads": 55677,
-    "categories": [
-      "Tooltip",
-      "Professions",
-      "Bags & Inventory",
-      "Quests & Leveling",
-      "Mail"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 97288,
     "name": "Details!: Framework (library)",
     "summary": "A colection of tools of addon development",
@@ -4591,6 +4591,23 @@
     "categories": [
       "Unit Frames",
       "Raid Frames"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 384785,
+    "name": "Altoholic-Retail (Teelo's Fork)",
+    "summary": " Provides information about your alts - Retail maintenance by Teelo",
+    "numberOfDownloads": 55854,
+    "categories": [
+      "Quests & Leveling",
+      "Tooltip",
+      "Professions",
+      "Bags & Inventory",
+      "Mail"
     ],
     "flavors": [
       "wow_retail"
@@ -4733,20 +4750,6 @@
     "source": "curse"
   },
   {
-    "id": 352620,
-    "name": "Buff Timers",
-    "summary": "Show buff duration in minutes (and seconds)",
-    "numberOfDownloads": 38238,
-    "categories": [
-      "Buffs & Debuffs",
-      "HUDs"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 302574,
     "name": "Warfront Rare Tracker",
     "summary": "Tracks your kills, loot and status of the All BfA Warfronts",
@@ -4822,24 +4825,6 @@
     "source": "curse"
   },
   {
-    "id": 72616,
-    "name": "CTMod",
-    "summary": "Core addon for doing basic and popular things in an intuitive way.",
-    "numberOfDownloads": 473347,
-    "categories": [
-      "Unit Frames",
-      "Map & Minimap",
-      "Mail",
-      "Buffs & Debuffs",
-      "Action Bars"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 274607,
     "name": "Bagnon ItemLevel",
     "summary": "A simple plugin for Bagnon that displays the item level of your equipable gear and artifact relics.",
@@ -4849,6 +4834,24 @@
       "Bags & Inventory"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 72616,
+    "name": "CTMod",
+    "summary": "Core addon for doing basic and popular things in an intuitive way.",
+    "numberOfDownloads": 473939,
+    "categories": [
+      "Action Bars",
+      "Map & Minimap",
+      "Mail",
+      "Buffs & Debuffs",
+      "Unit Frames"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -5905,6 +5908,20 @@
     "source": "curse"
   },
   {
+    "id": 352620,
+    "name": "Buff Timers",
+    "summary": "Show buff duration in minutes (and seconds)",
+    "numberOfDownloads": 41912,
+    "categories": [
+      "HUDs",
+      "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 3906,
     "name": "FloTotemBar",
     "summary": "Add some bars for casting of totems/traps, with timers showing the remaining life time of the objects",
@@ -5914,6 +5931,24 @@
       "Shaman",
       "Hunter",
       "Shaman"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 13593,
+    "name": "Masque: Apathy",
+    "summary": "Apathy skin for Masque.",
+    "numberOfDownloads": 276991,
+    "categories": [
+      "Action Bars",
+      "Plugins",
+      "Buffs & Debuffs",
+      "Bags & Inventory",
+      "Artwork"
     ],
     "flavors": [
       "wow_classic",
@@ -6083,23 +6118,6 @@
       "Tank",
       "Chat & Communication",
       "Class"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 94508,
-    "name": "Titan Panel [Currencies] Multi",
-    "summary": "Display 50+ different currencies in Titan Panel!",
-    "numberOfDownloads": 657742,
-    "categories": [
-      "Auction & Economy",
-      "Plugins",
-      "Titan Panel",
-      "Quests & Leveling",
-      "Bags & Inventory"
     ],
     "flavors": [
       "wow_retail"
@@ -6346,24 +6364,6 @@
     "source": "curse"
   },
   {
-    "id": 13593,
-    "name": "Masque: Apathy",
-    "summary": "Apathy skin for Masque.",
-    "numberOfDownloads": 273582,
-    "categories": [
-      "Artwork",
-      "Bags & Inventory",
-      "Action Bars",
-      "Plugins",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 4829,
     "name": "TipTac",
     "summary": "An Advanced Tooltip Addon",
@@ -6403,22 +6403,6 @@
     ],
     "flavors": [
       "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 293075,
-    "name": "Twintop's Insanity Bar",
-    "summary": "Insanity Bar for Shadow Priests, based on the WeakAura from Legion",
-    "numberOfDownloads": 138205,
-    "categories": [
-      "Class",
-      "Priest",
-      "Caster",
-      "Damage Dealer"
-    ],
-    "flavors": [
       "wow_retail"
     ],
     "source": "curse"
@@ -6738,6 +6722,23 @@
     "source": "curse"
   },
   {
+    "id": 94508,
+    "name": "Titan Panel [Currencies] Multi",
+    "summary": "Display 50+ different currencies in Titan Panel!",
+    "numberOfDownloads": 660600,
+    "categories": [
+      "Auction & Economy",
+      "Quests & Leveling",
+      "Titan Panel",
+      "Bags & Inventory",
+      "Plugins"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 5547,
     "name": "BadBoy: Spam Blocker & Reporter",
     "summary": "A simple spam blocker & reporter.",
@@ -6904,23 +6905,6 @@
     "source": "curse"
   },
   {
-    "id": 298558,
-    "name": "Enhanced Raid Frames",
-    "summary": "Enhance the built-in raid frames with Grid like functionality!",
-    "numberOfDownloads": 128212,
-    "categories": [
-      "Buffs & Debuffs",
-      "PvP",
-      "Raid Frames",
-      "Unit Frames",
-      "Healer"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 14155,
     "name": "HandyNotes: Directions",
     "summary": "Database of locations that city guards direct you to for HandyNotes",
@@ -6946,6 +6930,59 @@
       "Chat & Communication"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 298558,
+    "name": "Enhanced Raid Frames",
+    "summary": "Enhance the built-in raid frames with Grid like functionality!",
+    "numberOfDownloads": 128301,
+    "categories": [
+      "Raid Frames",
+      "Healer",
+      "Buffs & Debuffs",
+      "Unit Frames",
+      "PvP"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 13601,
+    "name": "Masque: Serenity",
+    "summary": "Serenity skins for Masque.",
+    "numberOfDownloads": 346236,
+    "categories": [
+      "Action Bars",
+      "Bags & Inventory",
+      "Plugins",
+      "Buffs & Debuffs",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 13595,
+    "name": "Masque: Entropy",
+    "summary": "Entropy skins for Masque.",
+    "numberOfDownloads": 232142,
+    "categories": [
+      "Plugins",
+      "Action Bars",
+      "Artwork",
+      "Buffs & Debuffs",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -7034,21 +7071,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 339270,
-    "name": "ccc",
-    "summary": "CC and DR timers",
-    "numberOfDownloads": 122877,
-    "categories": [
-      "Buffs & Debuffs",
-      "Combat",
-      "PvP"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -7171,6 +7193,22 @@
     "source": "curse"
   },
   {
+    "id": 293075,
+    "name": "Twintop's Insanity Bar",
+    "summary": "Insanity Bar for Shadow Priests, based on the WeakAura from Legion",
+    "numberOfDownloads": 138302,
+    "categories": [
+      "Priest",
+      "Damage Dealer",
+      "Class",
+      "Caster"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 68269,
     "name": "Details! Damage Meter: Raid Power Bars (plugin)",
     "summary": "Plugin for Details",
@@ -7275,6 +7313,19 @@
     "source": "curse"
   },
   {
+    "id": 352247,
+    "name": "TotemStatus",
+    "summary": "Displays info about your active totems",
+    "numberOfDownloads": 72320,
+    "categories": [
+      "Shaman"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 88599,
     "name": "Masque - ElvUIesque Skin",
     "summary": "Skin to emulate the default ElvUI theme within Masque",
@@ -7326,19 +7377,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 352247,
-    "name": "TotemStatus",
-    "summary": "Displays info about your active totems",
-    "numberOfDownloads": 71098,
-    "categories": [
-      "Shaman"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -7399,25 +7437,6 @@
       "Combat"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13595,
-    "name": "Masque: Entropy",
-    "summary": "Entropy skins for Masque.",
-    "numberOfDownloads": 229416,
-    "categories": [
-      "Action Bars",
-      "Plugins",
-      "Buffs & Debuffs",
-      "Artwork",
-      "Bags & Inventory",
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -7558,23 +7577,6 @@
     "source": "curse"
   },
   {
-    "id": 13601,
-    "name": "Masque: Serenity",
-    "summary": "Serenity skins for Masque.",
-    "numberOfDownloads": 343035,
-    "categories": [
-      "Artwork",
-      "Buffs & Debuffs",
-      "Plugins",
-      "Action Bars"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 368332,
     "name": "Routes Import/Export",
     "summary": "Import/Export extension for Routes addon",
@@ -7607,13 +7609,13 @@
     "id": 326660,
     "name": "WoW Challenger",
     "summary": "Will you be able to finish all these achievements and get all secret mounts/pets?",
-    "numberOfDownloads": 61099,
+    "numberOfDownloads": 61229,
     "categories": [
-      "Miscellaneous",
       "Achievements",
       "Companions",
       "Minigames",
-      "Quests & Leveling"
+      "Quests & Leveling",
+      "Miscellaneous"
     ],
     "flavors": [
       "wow_retail"
@@ -8031,6 +8033,20 @@
     "source": "curse"
   },
   {
+    "id": 396972,
+    "name": "Sorted.",
+    "summary": "Modern and user-friendly bag interface with fast sorting and filtering.",
+    "numberOfDownloads": 23109,
+    "categories": [
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 300657,
     "name": "BigWigs_Legion",
     "summary": "A collection of BigWigs modules from the Legion era.",
@@ -8041,20 +8057,6 @@
       "Combat"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 396972,
-    "name": "Sorted.",
-    "summary": "Modern and user-friendly bag interface with fast sorting and filtering.",
-    "numberOfDownloads": 22598,
-    "categories": [
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -8332,7 +8334,7 @@
     "id": 101199,
     "name": "mOnArs WardrobeHelper",
     "summary": "Addon that lists missing transmogs from wardrobe",
-    "numberOfDownloads": 736469,
+    "numberOfDownloads": 736858,
     "categories": [
       "Roleplay",
       "Boss Encounters",
@@ -8567,6 +8569,21 @@
     "numberOfDownloads": 92874,
     "categories": [
       "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 339270,
+    "name": "ccc",
+    "summary": "CC and DR timers",
+    "numberOfDownloads": 123332,
+    "categories": [
+      "Combat",
+      "PvP",
+      "Buffs & Debuffs"
     ],
     "flavors": [
       "wow_classic"
@@ -9182,6 +9199,23 @@
     "source": "curse"
   },
   {
+    "id": 398735,
+    "name": "WeaponSwingTimer SixxFix",
+    "summary": "Bugfixed version of Weapon Swing Timer by LeftHandedGlove specifically for the hunter timer",
+    "numberOfDownloads": 8348,
+    "categories": [
+      "Quests & Leveling",
+      "Class",
+      "Hunter",
+      "Combat",
+      "Damage Dealer"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 254465,
     "name": "tdBattlePetScript Rematch",
     "summary": "tdBattlePetScript's Script selector for Rematch",
@@ -9323,19 +9357,6 @@
       "Buffs & Debuffs",
       "Combat",
       "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 20205,
-    "name": "DataStore_Auctions",
-    "summary": "Stores information about character auctions and bids",
-    "numberOfDownloads": 1478291,
-    "categories": [
-      "Libraries"
     ],
     "flavors": [
       "wow_retail"
@@ -9658,6 +9679,24 @@
     "source": "curse"
   },
   {
+    "id": 267778,
+    "name": "Masque: Cirque",
+    "summary": "Cirque Skins for Masque",
+    "numberOfDownloads": 34608,
+    "categories": [
+      "Artwork",
+      "Buffs & Debuffs",
+      "Bags & Inventory",
+      "Plugins",
+      "Action Bars"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 13709,
     "name": "CooldownCount",
     "summary": "Display Cooldown Count of Spell Icon and Item",
@@ -9693,23 +9732,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 398735,
-    "name": "WeaponSwingTimer SixxFix",
-    "summary": "Bugfixed version of Weapon Swing Timer by LeftHandedGlove specifically for the hunter timer",
-    "numberOfDownloads": 6693,
-    "categories": [
-      "Hunter",
-      "Damage Dealer",
-      "Combat",
-      "Class",
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -10622,24 +10644,6 @@
     "source": "curse"
   },
   {
-    "id": 267778,
-    "name": "Masque: Cirque",
-    "summary": "Cirque Skins for Masque",
-    "numberOfDownloads": 33099,
-    "categories": [
-      "Action Bars",
-      "Plugins",
-      "Bags & Inventory",
-      "Buffs & Debuffs",
-      "Artwork"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 58453,
     "name": "QuestPlates",
     "summary": "Adds quest progress to nameplates",
@@ -11542,6 +11546,22 @@
     "source": "curse"
   },
   {
+    "id": 382140,
+    "name": "AutoEquip Classic",
+    "summary": "Swap trinket by the customized priority automatically",
+    "numberOfDownloads": 9588,
+    "categories": [
+      "PvP",
+      "Bags & Inventory",
+      "Buffs & Debuffs",
+      "Action Bars"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 299824,
     "name": "Adventure Guide Lockouts",
     "summary": "Adds instance status indicators to Adventure Guide.",
@@ -11736,22 +11756,6 @@
     "source": "curse"
   },
   {
-    "id": 382140,
-    "name": "AutoEquip Classic",
-    "summary": "Swap trinket by the customized priority automatically",
-    "numberOfDownloads": 9494,
-    "categories": [
-      "Action Bars",
-      "PvP",
-      "Bags & Inventory",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 340619,
     "name": "MobInfo2-Classic",
     "summary": "Shows Health/Mana of Enemy in Target Frame and Custom Tooltip.",
@@ -11898,6 +11902,19 @@
     "source": "curse"
   },
   {
+    "id": 20204,
+    "name": "DataStore",
+    "summary": "Main DataStore Module",
+    "numberOfDownloads": 1559537,
+    "categories": [
+      "Libraries"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 26811,
     "name": "Titan Panel [Social]",
     "summary": "A Titan Panel plugin incorporating Friends, Guild, and RealID Friends",
@@ -11938,19 +11955,6 @@
       "Map & Minimap",
       "Class",
       "Professions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 20204,
-    "name": "DataStore",
-    "summary": "Main DataStore Module",
-    "numberOfDownloads": 1559406,
-    "categories": [
-      "Libraries"
     ],
     "flavors": [
       "wow_retail"
@@ -12163,19 +12167,6 @@
     "source": "curse"
   },
   {
-    "id": 88051,
-    "name": "DataStore_Garrisons",
-    "summary": "Stores information about garrisons and followers",
-    "numberOfDownloads": 605009,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 28185,
     "name": "GridStatusRD_Cata",
     "summary": "Debuff List for Cataclysm",
@@ -12341,6 +12332,22 @@
     "source": "curse"
   },
   {
+    "id": 280790,
+    "name": "Aptechka",
+    "summary": "Raid frames for healers",
+    "numberOfDownloads": 48449,
+    "categories": [
+      "Unit Frames",
+      "Raid Frames",
+      "Healer"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 348978,
     "name": "Quality of Life: Classic Heals",
     "summary": "Displays your heals on players' unit frames in WoW Classic.",
@@ -12365,22 +12372,6 @@
     ],
     "flavors": [
       "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 280790,
-    "name": "Aptechka",
-    "summary": "Raid frames for healers",
-    "numberOfDownloads": 48061,
-    "categories": [
-      "Raid Frames",
-      "Healer",
-      "Unit Frames"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
     ],
     "source": "curse"
   },
@@ -13221,6 +13212,21 @@
     "source": "curse"
   },
   {
+    "id": 297511,
+    "name": "Vendor",
+    "summary": "The ultimate in configurable auto-selling of unwanted items in your bags whenever you visit a vendor. Customizable rules for selling and keeping items, plus blocklists, auto-repair and more!",
+    "numberOfDownloads": 43229,
+    "categories": [
+      "Auction & Economy",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 352367,
     "name": "Details!: Explosive Orbs (plugin)",
     "summary": "Show how many explosive orbs players target and hit",
@@ -13637,6 +13643,19 @@
     "source": "curse"
   },
   {
+    "id": 19872,
+    "name": "DataStore_Containers",
+    "summary": "Stores information about character bags, bank, and guild banks",
+    "numberOfDownloads": 1613465,
+    "categories": [
+      "Libraries"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 339242,
     "name": "Guild Tooltip",
     "summary": "Shows and colourises a player's guild name and class in their tooltip.",
@@ -13739,7 +13758,7 @@
     "id": 19876,
     "name": "DataStore_Reputations",
     "summary": "Stores information about character reputation levels",
-    "numberOfDownloads": 1406988,
+    "numberOfDownloads": 1407103,
     "categories": [
       "Libraries"
     ],
@@ -13811,20 +13830,6 @@
     "source": "curse"
   },
   {
-    "id": 29739,
-    "name": "DataStore_Agenda",
-    "summary": "Stores information about a character's friends, calendar, notes, etc..",
-    "numberOfDownloads": 1163573,
-    "categories": [
-      "Data Broker",
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 39243,
     "name": "Bitten's SpellFlash: Priest",
     "summary": "Replaces Blizzard's default proc highlighting to flash 1) a maximum dps rotation, or 2) more informative healing proc highlig...",
@@ -13871,19 +13876,6 @@
     "source": "curse"
   },
   {
-    "id": 19873,
-    "name": "DataStore_Achievements",
-    "summary": "Stores information about character achievements",
-    "numberOfDownloads": 1492724,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 84962,
     "name": "TinyPad",
     "summary": "A notepad addon.",
@@ -13911,10 +13903,10 @@
     "source": "curse"
   },
   {
-    "id": 20212,
-    "name": "DataStore_Spells",
-    "summary": "Stores information about character spells",
-    "numberOfDownloads": 1321755,
+    "id": 19874,
+    "name": "DataStore_Crafts",
+    "summary": "Stores information about professions & crafts",
+    "numberOfDownloads": 1659516,
     "categories": [
       "Libraries"
     ],
@@ -14542,20 +14534,6 @@
     "source": "curse"
   },
   {
-    "id": 88009,
-    "name": "Global Ignore List and Chat Spam Filter",
-    "summary": "Maintain an ignore list across all characters and servers, block annoying chat/spam",
-    "numberOfDownloads": 106518,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 86271,
     "name": "Masque: Goldpaw",
     "summary": "Various Masque skins to match Goldpaw's UI.",
@@ -14746,6 +14724,20 @@
       "PvP"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 88009,
+    "name": "Global Ignore List and Chat Spam Filter",
+    "summary": "Maintain an ignore list across all characters and servers, block annoying chat/spam",
+    "numberOfDownloads": 106669,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -15476,21 +15468,14 @@
     "source": "curse"
   },
   {
-    "id": 94732,
-    "name": "Titan Panel [Attributes] Multi",
-    "summary": "Display your character stats, XP, quest counter and more in Titan Panel!",
-    "numberOfDownloads": 111475,
+    "id": 20208,
+    "name": "DataStore_Inventory",
+    "summary": "Stores information about character inventory",
+    "numberOfDownloads": 1607200,
     "categories": [
-      "PvP",
-      "Combat",
-      "Buffs & Debuffs",
-      "Titan Panel",
-      "Plugins",
-      "Titan Panel",
-      "Plugins"
+      "Libraries"
     ],
     "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -15599,6 +15584,19 @@
     "source": "curse"
   },
   {
+    "id": 360406,
+    "name": "MoveAround",
+    "summary": "MoveAround move your Frames",
+    "numberOfDownloads": 6858,
+    "categories": [
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 101803,
     "name": "XRoll - The Roll Bones - Outlaw",
     "summary": "XRoll - The Roll Bones - Outlaw",
@@ -15608,19 +15606,6 @@
       "Buffs & Debuffs",
       "Rogue",
       "Class"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 19872,
-    "name": "DataStore_Containers",
-    "summary": "Stores information about character bags, bank, and guild banks",
-    "numberOfDownloads": 1596400,
-    "categories": [
-      "Libraries"
     ],
     "flavors": [
       "wow_retail"
@@ -15743,34 +15728,6 @@
       "Arena",
       "Chat & Communication",
       "PvP"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 297511,
-    "name": "Vendor",
-    "summary": "The ultimate in configurable auto-selling of unwanted items in your bags whenever you visit a vendor. Customizable rules for selling and keeping items, plus blocklists, auto-repair and more!",
-    "numberOfDownloads": 42488,
-    "categories": [
-      "Bags & Inventory",
-      "Auction & Economy"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 20208,
-    "name": "DataStore_Inventory",
-    "summary": "Stores information about character inventory",
-    "numberOfDownloads": 1593399,
-    "categories": [
-      "Libraries"
     ],
     "flavors": [
       "wow_retail"
@@ -16113,19 +16070,6 @@
     "categories": [
       "Data Broker",
       "Professions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 19875,
-    "name": "DataStore_Pets",
-    "summary": "Stores information about character pets and mounts",
-    "numberOfDownloads": 1350892,
-    "categories": [
-      "Libraries"
     ],
     "flavors": [
       "wow_retail"
@@ -16497,13 +16441,13 @@
     "source": "curse"
   },
   {
-    "id": 297378,
-    "name": "BtWQuests: Cataclysm",
-    "summary": "Cataclysm data for BtWQuests",
-    "numberOfDownloads": 4472,
+    "id": 394428,
+    "name": "WhatRepRecipes",
+    "summary": "View vendor sell values for all crafted items and reputation requirements, source, price and mats for all unskilled recipe ranks",
+    "numberOfDownloads": 3394,
     "categories": [
-      "Quests & Leveling",
-      "Libraries"
+      "Auction & Economy",
+      "Professions"
     ],
     "flavors": [
       "wow_retail"
@@ -16511,11 +16455,12 @@
     "source": "curse"
   },
   {
-    "id": 20210,
-    "name": "DataStore_Quests",
-    "summary": "Stores information about character quests",
-    "numberOfDownloads": 1414536,
+    "id": 297378,
+    "name": "BtWQuests: Cataclysm",
+    "summary": "Cataclysm data for BtWQuests",
+    "numberOfDownloads": 4472,
     "categories": [
+      "Quests & Leveling",
       "Libraries"
     ],
     "flavors": [
@@ -16650,19 +16595,6 @@
     "source": "curse"
   },
   {
-    "id": 20213,
-    "name": "DataStore_Stats",
-    "summary": "Stores information about character statistics",
-    "numberOfDownloads": 1284559,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 99397,
     "name": "Daily Global Check_Legion Rare Mobs",
     "summary": "A Daily Global Check plugin that tracks Rare Mobs in Legion zones",
@@ -16783,19 +16715,6 @@
     "source": "curse"
   },
   {
-    "id": 19874,
-    "name": "DataStore_Crafts",
-    "summary": "Stores information about professions & crafts",
-    "numberOfDownloads": 1642050,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 2403,
     "name": "TinyTip",
     "summary": "Interacts with TinyTip modules, either integrated or standalone, to provide extra centralized functionality. Required for an ...",
@@ -16857,22 +16776,6 @@
     "numberOfDownloads": 510902,
     "categories": [
       "Action Bars"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 394428,
-    "name": "WhatRepRecipes",
-    "summary": "View vendor sell values for all crafted items and reputation requirements, source, price and mats for all unskilled recipe ranks",
-    "numberOfDownloads": 3122,
-    "categories": [
-      "Auction & Economy",
-      "Professions",
-      "Auction & Economy",
-      "Professions"
     ],
     "flavors": [
       "wow_retail"
@@ -17194,19 +17097,6 @@
     "source": "curse"
   },
   {
-    "id": 19877,
-    "name": "DataStore_Talents",
-    "summary": "Stores information about character talents",
-    "numberOfDownloads": 1378765,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 27854,
     "name": "ShestakUI",
     "summary": "ShestakUI is a modular, lightweight, all-in-one overhaul for the World of Warcraft interface",
@@ -17328,6 +17218,23 @@
     "source": "curse"
   },
   {
+    "id": 404065,
+    "name": "AbyssUI",
+    "summary": "Minimalist World of Warcraft UI",
+    "numberOfDownloads": 2162,
+    "categories": [
+      "HUDs",
+      "Quests & Leveling",
+      "Miscellaneous",
+      "Unit Frames",
+      "Class"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 13505,
     "name": "BasicComboPoints",
     "summary": "Numerical & customizable display of current combo points.",
@@ -17442,18 +17349,19 @@
     "source": "curse"
   },
   {
-    "id": 404065,
-    "name": "AbyssUI",
-    "summary": "Minimalist World of Warcraft UI",
-    "numberOfDownloads": 1923,
+    "id": 369265,
+    "name": "HidingBar",
+    "summary": "Convenient hiding panel for addon buttons from DataBroker and Minimap",
+    "numberOfDownloads": 4856,
     "categories": [
-      "Quests & Leveling",
-      "Miscellaneous",
-      "HUDs",
-      "Unit Frames",
-      "Class"
+      "Map & Minimap",
+      "Plugins",
+      "Artwork",
+      "Data Broker",
+      "Miscellaneous"
     ],
     "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -17756,6 +17664,24 @@
     "source": "curse"
   },
   {
+    "id": 94732,
+    "name": "Titan Panel [Attributes] Multi",
+    "summary": "Display your character stats, XP, quest counter and more in Titan Panel!",
+    "numberOfDownloads": 112599,
+    "categories": [
+      "PvP",
+      "Plugins",
+      "Combat",
+      "Titan Panel",
+      "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 324878,
     "name": "CensusPlusClassic",
     "summary": "Collect realm population data of your realm",
@@ -17819,24 +17745,6 @@
       "Boss Encounters"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 369265,
-    "name": "HidingBar",
-    "summary": "Convenient hiding panel for addon buttons from DataBroker and Minimap",
-    "numberOfDownloads": 4708,
-    "categories": [
-      "Plugins",
-      "Data Broker",
-      "Artwork",
-      "Map & Minimap",
-      "Miscellaneous"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -18466,20 +18374,6 @@
     "source": "curse"
   },
   {
-    "id": 315757,
-    "name": "DRList-1.0 (Diminishing Returns Data)",
-    "summary": "List of abilties that have diminishing returns and its categories.",
-    "numberOfDownloads": 15574,
-    "categories": [
-      "Libraries"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 308483,
     "name": "MagnetButtons",
     "summary": "This addon can create any number of free moving action buttons. Any MagnetButton can be individually moved around (anywhere) on the screen, and will also \"magnetically-lock\" to any side of another MagnetButton.",
@@ -18834,6 +18728,19 @@
     "source": "curse"
   },
   {
+    "id": 397053,
+    "name": "namePlateM+",
+    "summary": "Nameplate addon specialized for M+ dungeons",
+    "numberOfDownloads": 3599,
+    "categories": [
+      "Unit Frames"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 102862,
     "name": "Call to Arms",
     "summary": "Display active Call to Arms bonus queues",
@@ -19063,6 +18970,20 @@
     "categories": [
       "Priest",
       "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 54636,
+    "name": "Battle Pet Daily Tamer",
+    "summary": "Puts a familiar paw on the world map to mark where daily pet tamers are that you have not completed for the day.",
+    "numberOfDownloads": 444105,
+    "categories": [
+      "Quests & Leveling",
+      "Battle Pets"
     ],
     "flavors": [
       "wow_retail"
@@ -19672,19 +19593,6 @@
     "source": "curse"
   },
   {
-    "id": 327019,
-    "name": "AllyRoute",
-    "summary": "In-game Alliance Leveling Guide. 1-60 Step by Step.",
-    "numberOfDownloads": 56436,
-    "categories": [
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 330378,
     "name": "moUI",
     "summary": "Cleand and Crisp UI",
@@ -19737,19 +19645,6 @@
     ],
     "flavors": [
       "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 360406,
-    "name": "MoveAround",
-    "summary": "MoveAround move your Frames",
-    "numberOfDownloads": 5667,
-    "categories": [
-      "Miscellaneous"
-    ],
-    "flavors": [
-      "wow_retail"
     ],
     "source": "curse"
   },
@@ -19861,6 +19756,23 @@
     "source": "curse"
   },
   {
+    "id": 405267,
+    "name": "Clicked",
+    "summary": "Intuitive yet powerful keybind and clickbind management",
+    "numberOfDownloads": 1722,
+    "categories": [
+      "Unit Frames",
+      "Buffs & Debuffs",
+      "Healer",
+      "Combat"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 43776,
     "name": "Extended Vendor UI",
     "summary": "Increases the size of the vendor interface and adds search, filtering, and quick vendor features",
@@ -19898,23 +19810,6 @@
       "Bags & Inventory"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 405267,
-    "name": "Clicked",
-    "summary": "Intuitive yet powerful keybind and clickbind management",
-    "numberOfDownloads": 1702,
-    "categories": [
-      "Combat",
-      "Healer",
-      "Unit Frames",
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -20166,19 +20061,6 @@
     "source": "curse"
   },
   {
-    "id": 397053,
-    "name": "namePlateM+",
-    "summary": "Nameplate addon specialized for M+ dungeons",
-    "numberOfDownloads": 3357,
-    "categories": [
-      "Unit Frames"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 325012,
     "name": "FPS Counter",
     "summary": "Just a customizable alternative to the default FPS counter",
@@ -20249,6 +20131,23 @@
     "source": "curse"
   },
   {
+    "id": 13600,
+    "name": "Masque: Onyx",
+    "summary": "Onyx skins for Masque.",
+    "numberOfDownloads": 289346,
+    "categories": [
+      "Bags & Inventory",
+      "Action Bars",
+      "Buffs & Debuffs",
+      "Artwork",
+      "Plugins"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 348033,
     "name": "DoIt!",
     "summary": "DoIt is a framework for rapidly building WoW addons",
@@ -20289,22 +20188,6 @@
       "Battle Pets",
       "Bags & Inventory",
       "Auction & Economy"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13600,
-    "name": "Masque: Onyx",
-    "summary": "Onyx skins for Masque.",
-    "numberOfDownloads": 289068,
-    "categories": [
-      "Buffs & Debuffs",
-      "Action Bars",
-      "Plugins",
-      "Artwork"
     ],
     "flavors": [
       "wow_retail"
@@ -22192,20 +22075,6 @@
     "source": "curse"
   },
   {
-    "id": 54636,
-    "name": "Battle Pet Daily Tamer",
-    "summary": "Puts a familiar paw on the world map to mark where daily pet tamers are that you have not completed for the day.",
-    "numberOfDownloads": 442748,
-    "categories": [
-      "Battle Pets",
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 24545,
     "name": "AdiBags_Outfitter",
     "summary": "Adds Outfitter set filters to AdiBags.",
@@ -22640,6 +22509,23 @@
     "source": "curse"
   },
   {
+    "id": 13599,
+    "name": "Masque: LiteStep",
+    "summary": "LiteStep skins for Masque.",
+    "numberOfDownloads": 176810,
+    "categories": [
+      "Plugins",
+      "Bags & Inventory",
+      "Buffs & Debuffs",
+      "Action Bars",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 29152,
     "name": "Basic Threat Bar",
     "summary": "A basic threat bar",
@@ -22707,22 +22593,6 @@
     "numberOfDownloads": 195456,
     "categories": [
       "Map & Minimap"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13599,
-    "name": "Masque: LiteStep",
-    "summary": "LiteStep skins for Masque.",
-    "numberOfDownloads": 176441,
-    "categories": [
-      "Plugins",
-      "Buffs & Debuffs",
-      "Action Bars",
-      "Artwork"
     ],
     "flavors": [
       "wow_retail"
@@ -23823,6 +23693,21 @@
     "source": "curse"
   },
   {
+    "id": 22760,
+    "name": "zz_Coords",
+    "summary": "display map coords",
+    "numberOfDownloads": 59686,
+    "categories": [
+      "Data Broker",
+      "Map & Minimap"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 6079,
     "name": "Fizzle",
     "summary": "Show item durability and quality in the character frame.",
@@ -23917,6 +23802,20 @@
     "source": "curse"
   },
   {
+    "id": 344950,
+    "name": "Fast Auto Repair",
+    "summary": "Repair your armor",
+    "numberOfDownloads": 4362,
+    "categories": [
+      "Auction & Economy",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 28430,
     "name": "SellTrash",
     "summary": "Sells all your trash to a vendor in one click",
@@ -23963,17 +23862,19 @@
     "source": "curse"
   },
   {
-    "id": 81413,
-    "name": "ls: UI",
-    "summary": "Yet another UI, but this one is a bit special...",
-    "numberOfDownloads": 64639,
+    "id": 355022,
+    "name": "Improved Blizzard UI (Classic Edition)",
+    "summary": "A general improvement to the default Classic Blizzard UI",
+    "numberOfDownloads": 4917,
     "categories": [
+      "Action Bars",
       "Artwork",
+      "Combat",
       "Unit Frames",
-      "Action Bars"
+      "PvP"
     ],
     "flavors": [
-      "wow_retail"
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -23993,20 +23894,6 @@
     "source": "curse"
   },
   {
-    "id": 344012,
-    "name": "Group Bulletin Board",
-    "summary": "Searches the chat for group requests and sorts them",
-    "numberOfDownloads": 24271,
-    "categories": [
-      "Chat & Communication",
-      "Miscellaneous"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 52636,
     "name": "Deadly Boss Mods Profiles",
     "summary": "Ace profiles for Deadly Boss Mods",
@@ -24021,6 +23908,21 @@
     "source": "curse"
   },
   {
+    "id": 365416,
+    "name": "Essential DKP",
+    "summary": "Essential guild version of MonolithDKP",
+    "numberOfDownloads": 4030,
+    "categories": [
+      "Boss Encounters",
+      "Miscellaneous",
+      "Guild"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 348048,
     "name": "Mythic Plus LFG Filter",
     "summary": "Mythic Plus LFG Filter",
@@ -24031,23 +23933,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 355022,
-    "name": "Improved Blizzard UI (Classic Edition)",
-    "summary": "A general improvement to the default Classic Blizzard UI",
-    "numberOfDownloads": 4900,
-    "categories": [
-      "Unit Frames",
-      "Artwork",
-      "Combat",
-      "Action Bars",
-      "PvP"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -24141,13 +24026,13 @@
     "id": 283389,
     "name": "RUF",
     "summary": "Pretty customisable, pretty light weight, the perfect middle ground. Supports Classic & Live",
-    "numberOfDownloads": 36529,
+    "numberOfDownloads": 37843,
     "categories": [
-      "Combat",
-      "Class",
       "Roleplay",
+      "Class",
+      "PvP",
       "Unit Frames",
-      "PvP"
+      "Combat"
     ],
     "flavors": [
       "wow_classic",
@@ -24399,22 +24284,6 @@
       "Titan Panel"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 30985,
-    "name": "Simple Taunt Announce",
-    "summary": "Simple Taunt Announce",
-    "numberOfDownloads": 33734,
-    "categories": [
-      "Combat",
-      "Boss Encounters",
-      "Tank"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -24780,6 +24649,20 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 344012,
+    "name": "Group Bulletin Board",
+    "summary": "Searches the chat for group requests and sorts them",
+    "numberOfDownloads": 24402,
+    "categories": [
+      "Miscellaneous",
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -25875,6 +25758,21 @@
     "source": "curse"
   },
   {
+    "id": 81413,
+    "name": "ls: UI",
+    "summary": "Yet another UI, but this one is a bit special...",
+    "numberOfDownloads": 65678,
+    "categories": [
+      "Unit Frames",
+      "Action Bars",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 349169,
     "name": "BigBrainTanking",
     "summary": "BigBrainTanking is an addon that is aimed to assist you with tanking chores.",
@@ -26303,8 +26201,8 @@
     "numberOfDownloads": 1220885,
     "categories": [
       "Garrison",
-      "Quests & Leveling",
-      "Data Broker"
+      "Data Broker",
+      "Quests & Leveling"
     ],
     "flavors": [
       "wow_retail"
@@ -27412,20 +27310,6 @@
     "source": "curse"
   },
   {
-    "id": 305012,
-    "name": "Combat Time Tracker",
-    "summary": "Keep track of time spent in combat.",
-    "numberOfDownloads": 8719,
-    "categories": [
-      "Combat"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 31658,
     "name": "Masque Skinner: Pitbull4",
     "summary": "Skins Pitbull4's aura frames with Masque",
@@ -27744,6 +27628,20 @@
       "Quests & Leveling"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 315757,
+    "name": "DRList-1.0 (Diminishing Returns Data)",
+    "summary": "Library for crowd control diminishing return data.",
+    "numberOfDownloads": 20023,
+    "categories": [
+      "Libraries"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -28460,6 +28358,19 @@
     "source": "curse"
   },
   {
+    "id": 327019,
+    "name": "AllyRoute",
+    "summary": "In-game Alliance Leveling Guide. 1-60 Step by Step.",
+    "numberOfDownloads": 58173,
+    "categories": [
+      "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 83846,
     "name": "Autoloot",
     "summary": "Autoloot",
@@ -28540,6 +28451,20 @@
       "Professions",
       "Inscription",
       "Enchanting"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 88756,
+    "name": "Favorite Contacts",
+    "summary": "Adds buttons to the mail frame for easy access of your favorite contacts",
+    "numberOfDownloads": 7533,
+    "categories": [
+      "Mail"
     ],
     "flavors": [
       "wow_classic",
@@ -29774,21 +29699,6 @@
     "source": "curse"
   },
   {
-    "id": 22760,
-    "name": "zz_Coords",
-    "summary": "display map coords",
-    "numberOfDownloads": 58573,
-    "categories": [
-      "Map & Minimap",
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 101964,
     "name": "DuffedUI",
     "summary": "DuffedUI",
@@ -30210,12 +30120,12 @@
     "id": 279283,
     "name": "Neuron",
     "summary": "A full-featured action bar and interface replacement addon",
-    "numberOfDownloads": 73399,
+    "numberOfDownloads": 73416,
     "categories": [
       "Action Bars",
-      "Combat",
+      "Class",
       "PvP",
-      "Class"
+      "Combat"
     ],
     "flavors": [
       "wow_retail"
@@ -30582,6 +30492,20 @@
     "source": "curse"
   },
   {
+    "id": 335270,
+    "name": "Titan Panel [TokenChecker]",
+    "summary": "WoW Token price checker",
+    "numberOfDownloads": 3052,
+    "categories": [
+      "Titan Panel",
+      "Auction & Economy"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 332848,
     "name": "EavesDropClassic",
     "summary": "A simple visual combat log with spell/skill icons for Classic WoW",
@@ -30846,21 +30770,6 @@
     "source": "curse"
   },
   {
-    "id": 341408,
-    "name": "Masque: Neuron",
-    "summary": "The default Neuron skin for the Masque World of Warcraft add-on",
-    "numberOfDownloads": 3006,
-    "categories": [
-      "Plugins",
-      "Artwork",
-      "Action Bars"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 95177,
     "name": "LOIHInterrupt",
     "summary": "Interrupt manager for guild Lords of Ironhearts of Arathor EU.",
@@ -31053,6 +30962,19 @@
     "categories": [
       "Caster",
       "Warlock"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 23496,
+    "name": "Broker Played Time",
+    "summary": "DataBroker plugin to track played time across all your characters.",
+    "numberOfDownloads": 24707,
+    "categories": [
+      "Data Broker"
     ],
     "flavors": [
       "wow_retail"
@@ -31363,6 +31285,21 @@
     "source": "curse"
   },
   {
+    "id": 341408,
+    "name": "Masque: Neuron",
+    "summary": "The default Neuron skin for the Masque World of Warcraft add-on",
+    "numberOfDownloads": 4065,
+    "categories": [
+      "Action Bars",
+      "Plugins",
+      "Artwork"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 299761,
     "name": "SimpleSpellsteal",
     "summary": "Creates a small movable frame listing stealable buffs from your target.",
@@ -31482,6 +31419,20 @@
       "Data Broker"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 290291,
+    "name": "zz_itemsdb",
+    "summary": "Tooltips of your chars items in bank/bags ",
+    "numberOfDownloads": 14593,
+    "categories": [
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -31752,20 +31703,6 @@
       "Bags & Inventory",
       "Data Export",
       "Plugins"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 23496,
-    "name": "Broker Played Time",
-    "summary": "DataBroker plugin to track played time across all your characters.",
-    "numberOfDownloads": 24607,
-    "categories": [
-      "Data Broker",
-      "Data Broker"
     ],
     "flavors": [
       "wow_retail"
@@ -32228,6 +32165,20 @@
     "source": "curse"
   },
   {
+    "id": 383756,
+    "name": "DiscoHealer - Classic",
+    "summary": "Minimalist Raid Frames For Easy Healing",
+    "numberOfDownloads": 1584,
+    "categories": [
+      "Healer",
+      "Raid Frames"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 85975,
     "name": "GridStatusRD_WoD",
     "summary": "Debuff List for WoD",
@@ -32433,6 +32384,20 @@
       "Action Bars",
       "Plugins",
       "Combat"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 327499,
+    "name": "Titan Panel [Farm Friend]",
+    "summary": "A World of Warcraft AddOn that extends the famous Titan Panel with the functionality to Track up to four Farmed Items",
+    "numberOfDownloads": 3416,
+    "categories": [
+      "Titan Panel",
+      "Professions"
     ],
     "flavors": [
       "wow_retail"
@@ -32906,20 +32871,6 @@
     "source": "curse"
   },
   {
-    "id": 39023,
-    "name": "zz_Repair",
-    "summary": "Durabilitybroker with autorepair",
-    "numberOfDownloads": 15318,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 345668,
     "name": "MassDisenchanter",
     "summary": "MassDisenchanter was made to simplify Disenchanting process in classic wow.",
@@ -33000,6 +32951,22 @@
       "Auction & Economy"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 30985,
+    "name": "Simple Taunt Announce",
+    "summary": "Simple Taunt Announce",
+    "numberOfDownloads": 37108,
+    "categories": [
+      "Combat",
+      "Boss Encounters",
+      "Tank"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -33143,12 +33110,45 @@
     "source": "curse"
   },
   {
+    "id": 375578,
+    "name": "Guildbook",
+    "summary": "A guild addon",
+    "numberOfDownloads": 1469,
+    "categories": [
+      "Map & Minimap",
+      "Guild",
+      "Professions",
+      "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 45310,
     "name": "Lorewalkers",
     "summary": "A simple addon to help you obtain all the Lorewalker books.",
     "numberOfDownloads": 281552,
     "categories": [
       "Achievements"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 13596,
+    "name": "Masque: Gears",
+    "summary": "Gears skins for Masque.",
+    "numberOfDownloads": 136920,
+    "categories": [
+      "Buffs & Debuffs",
+      "Bags & Inventory",
+      "Action Bars",
+      "Plugins",
+      "Artwork"
     ],
     "flavors": [
       "wow_retail"
@@ -33205,36 +33205,6 @@
     "numberOfDownloads": 166212,
     "categories": [
       "Titan Panel"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 383756,
-    "name": "DiscoHealer - Classic",
-    "summary": "Minimalist Raid Frames For Easy Healing",
-    "numberOfDownloads": 1537,
-    "categories": [
-      "Healer",
-      "Raid Frames"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 13596,
-    "name": "Masque: Gears",
-    "summary": "Gears skins for Masque.",
-    "numberOfDownloads": 136756,
-    "categories": [
-      "Action Bars",
-      "Artwork",
-      "Plugins",
-      "Buffs & Debuffs"
     ],
     "flavors": [
       "wow_retail"
@@ -33516,22 +33486,6 @@
     "source": "curse"
   },
   {
-    "id": 375578,
-    "name": "Guildbook",
-    "summary": "A guild addon",
-    "numberOfDownloads": 1446,
-    "categories": [
-      "Quests & Leveling",
-      "Map & Minimap",
-      "Professions",
-      "Guild"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 103113,
     "name": "Interrupt Tracker",
     "summary": "It shows the duration of player and party interrupts.",
@@ -33557,6 +33511,20 @@
       "Unit Frames"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 39023,
+    "name": "zz_Repair",
+    "summary": "Durabilitybroker with autorepair",
+    "numberOfDownloads": 18154,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -34133,20 +34101,6 @@
     "source": "curse"
   },
   {
-    "id": 290291,
-    "name": "zz_itemsdb",
-    "summary": "Tooltips of your chars items in bank/bags ",
-    "numberOfDownloads": 14047,
-    "categories": [
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 20146,
     "name": "Cellular",
     "summary": "Instant messenger for whispers",
@@ -34644,6 +34598,19 @@
     "source": "curse"
   },
   {
+    "id": 14696,
+    "name": "StatBlockCore",
+    "summary": "A core for your informational plugins to plug into.",
+    "numberOfDownloads": 87743,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 22065,
     "name": "Tidy Threat",
     "summary": "Tidy Threat",
@@ -34779,19 +34746,6 @@
     "numberOfDownloads": 3157,
     "categories": [
       "Map & Minimap"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 255416,
-    "name": "Transmog Outfits",
-    "summary": "Allows to save more than 20 transmog outfits per character",
-    "numberOfDownloads": 18369,
-    "categories": [
-      "Transmogrification"
     ],
     "flavors": [
       "wow_retail"
@@ -35019,6 +34973,19 @@
     "numberOfDownloads": 82130,
     "categories": [
       "Action Bars"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 255416,
+    "name": "Transmog Outfits",
+    "summary": "Allows to save more than 20 transmog outfits per character",
+    "numberOfDownloads": 18394,
+    "categories": [
+      "Transmogrification"
     ],
     "flavors": [
       "wow_retail"
@@ -36105,22 +36072,6 @@
     "source": "curse"
   },
   {
-    "id": 86258,
-    "name": "GoldenPortrait",
-    "summary": "Shows an elite dragon around your character's unit frame.",
-    "numberOfDownloads": 24101,
-    "categories": [
-      "Artwork",
-      "Miscellaneous",
-      "Unit Frames",
-      "HUDs"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 27838,
     "name": "Masque Skinner: X/Z-Perl",
     "summary": "Skins the X-Perl or Z-Perl aura frames with Masque",
@@ -36362,6 +36313,19 @@
     "source": "curse"
   },
   {
+    "id": 305012,
+    "name": "Combat Time Tracker",
+    "summary": "Keep track of time spent in combat.",
+    "numberOfDownloads": 9381,
+    "categories": [
+      "Combat"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 28739,
     "name": "Prospect Me",
     "summary": "An addon for tracking prospecting and milling results.",
@@ -36529,20 +36493,6 @@
       "Map & Minimap"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 39054,
-    "name": "zz_Money",
-    "summary": "money broker",
-    "numberOfDownloads": 20263,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -36937,21 +36887,6 @@
       "Map & Minimap"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 39073,
-    "name": "zz_Mailbox",
-    "summary": "mail broker",
-    "numberOfDownloads": 12469,
-    "categories": [
-      "Data Broker",
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -37575,6 +37510,19 @@
     "source": "curse"
   },
   {
+    "id": 28011,
+    "name": "QuestGuru",
+    "summary": "Quest Log Enhancer",
+    "numberOfDownloads": 348986,
+    "categories": [
+      "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 65541,
     "name": "Rarefied",
     "summary": "Detects rares on the minimap",
@@ -37771,6 +37719,23 @@
     "source": "curse"
   },
   {
+    "id": 407154,
+    "name": "AbyssUI Classic",
+    "summary": " minimalist Classic World of Warcraft interface",
+    "numberOfDownloads": 349,
+    "categories": [
+      "Quests & Leveling",
+      "HUDs",
+      "Class",
+      "Miscellaneous",
+      "Unit Frames"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 342186,
     "name": "Island Explorer",
     "summary": "An AIO island expeditions assistant",
@@ -37816,23 +37781,6 @@
     "source": "curse"
   },
   {
-    "id": 389802,
-    "name": "SinStats HUD",
-    "summary": "Real-time character stats HUD",
-    "numberOfDownloads": 723,
-    "categories": [
-      "Combat",
-      "Miscellaneous",
-      "Warrior",
-      "Unit Frames",
-      "HUDs"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 5692,
     "name": "Minimalist",
     "summary": "A Collection of Automations and Interface Tweaks.",
@@ -37845,6 +37793,23 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 389802,
+    "name": "SinStats HUD",
+    "summary": "Real-time character stats HUD",
+    "numberOfDownloads": 731,
+    "categories": [
+      "Unit Frames",
+      "Warrior",
+      "HUDs",
+      "Miscellaneous",
+      "Combat"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -37876,19 +37841,6 @@
     ],
     "flavors": [
       "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 28011,
-    "name": "QuestGuru",
-    "summary": "Quest Log Enhancer",
-    "numberOfDownloads": 348982,
-    "categories": [
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_retail"
     ],
     "source": "curse"
   },
@@ -39411,6 +39363,20 @@
     "source": "curse"
   },
   {
+    "id": 39074,
+    "name": "zz_Infoclock",
+    "summary": "Broker AddOn for time, latency and fps",
+    "numberOfDownloads": 9971,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 340584,
     "name": "Friends List +",
     "summary": "Adds a tab of your wow friends with some additional information.",
@@ -39630,6 +39596,19 @@
     "categories": [
       "Auction & Economy",
       "Professions"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 348449,
+    "name": "MythicPlusDrop",
+    "summary": "MythicPlusDrop",
+    "numberOfDownloads": 1947,
+    "categories": [
+      "Boss Encounters"
     ],
     "flavors": [
       "wow_retail"
@@ -40146,20 +40125,6 @@
     ],
     "flavors": [
       "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 344950,
-    "name": "Fast Auto Repair",
-    "summary": "Repair your armor",
-    "numberOfDownloads": 3304,
-    "categories": [
-      "Bags & Inventory",
-      "Auction & Economy"
-    ],
-    "flavors": [
       "wow_retail"
     ],
     "source": "curse"
@@ -41208,6 +41173,20 @@
     "source": "curse"
   },
   {
+    "id": 410818,
+    "name": "Collectionator",
+    "summary": "Browse uncollected transmogs and pets on all your alts. ",
+    "numberOfDownloads": 595,
+    "categories": [
+      "Transmogrification",
+      "Auction & Economy"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 29760,
     "name": "Enigma Unit Frames",
     "summary": "EUF is an enhance of wow original unit frames, provides hp with both value and %, and optional 3D portrait. Simple and Useful.",
@@ -41590,19 +41569,6 @@
     "categories": [
       "Audio & Video",
       "Plugins"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 14696,
-    "name": "StatBlockCore",
-    "summary": "A core for your informational plugins to plug into.",
-    "numberOfDownloads": 83892,
-    "categories": [
-      "Data Broker"
     ],
     "flavors": [
       "wow_retail"
@@ -42184,6 +42150,20 @@
     ],
     "flavors": [
       "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 410116,
+    "name": "Mega Macro",
+    "summary": "Overhauled macro system for World of Warcraft",
+    "numberOfDownloads": 364,
+    "categories": [
+      "Miscellaneous",
+      "Action Bars"
+    ],
+    "flavors": [
+      "wow_retail"
     ],
     "source": "curse"
   },
@@ -43449,22 +43429,6 @@
     "source": "curse"
   },
   {
-    "id": 353364,
-    "name": "DressingSlots",
-    "summary": "Adds gear slots to the default dressing room",
-    "numberOfDownloads": 1172,
-    "categories": [
-      "Bags & Inventory",
-      "Roleplay",
-      "Tooltip",
-      "Transmogrification"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 403408,
     "name": "ExG",
     "summary": "just another EPGP addon",
@@ -43982,6 +43946,19 @@
     "source": "curse"
   },
   {
+    "id": 349798,
+    "name": "QuestTrackerMover",
+    "summary": "QuestTrackerMover",
+    "numberOfDownloads": 906,
+    "categories": [
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 282389,
     "name": "ClassTrialTimer",
     "summary": "Visual countdown of the 8 hours /played a level 110 class trial lasts",
@@ -44082,6 +44059,22 @@
     "numberOfDownloads": 35410,
     "categories": [
       "Titan Panel"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 353364,
+    "name": "DressingSlots",
+    "summary": "Adds gear slots to the default dressing room",
+    "numberOfDownloads": 1174,
+    "categories": [
+      "Transmogrification",
+      "Bags & Inventory",
+      "Roleplay",
+      "Tooltip"
     ],
     "flavors": [
       "wow_retail"
@@ -44408,19 +44401,6 @@
       "Achievements",
       "Chat & Communication",
       "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 66125,
-    "name": "SimpleVignette",
-    "summary": "SimpleVignette",
-    "numberOfDownloads": 5019,
-    "categories": [
-      "Map & Minimap"
     ],
     "flavors": [
       "wow_retail"
@@ -44760,20 +44740,6 @@
     "source": "curse"
   },
   {
-    "id": 327499,
-    "name": "Titan Panel [Farm Friend]",
-    "summary": "A World of Warcraft AddOn that extends the famous Titan Panel with the functionality to Track up to four Farmed Items",
-    "numberOfDownloads": 2820,
-    "categories": [
-      "Titan Panel",
-      "Professions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 385517,
     "name": "Musician Piano",
     "summary": "Piano instrument for Musician",
@@ -44927,20 +44893,6 @@
     "categories": [
       "Quests & Leveling",
       "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 335270,
-    "name": "Titan Panel [TokenChecker]",
-    "summary": "WoW Token price checker",
-    "numberOfDownloads": 2397,
-    "categories": [
-      "Auction & Economy",
-      "Titan Panel"
     ],
     "flavors": [
       "wow_retail"
@@ -45275,20 +45227,6 @@
     "numberOfDownloads": 10064,
     "categories": [
       "Achievements"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 410818,
-    "name": "Collectionator",
-    "summary": "Browse uncollected transmogs and pets on all your alts. ",
-    "numberOfDownloads": 512,
-    "categories": [
-      "Transmogrification",
-      "Auction & Economy"
     ],
     "flavors": [
       "wow_retail"
@@ -46297,7 +46235,7 @@
     "id": 280284,
     "name": "Invite On Whisper",
     "summary": "Automatically invite people (to group or guild) who whisper you",
-    "numberOfDownloads": 4115,
+    "numberOfDownloads": 4118,
     "categories": [
       "Chat & Communication"
     ],
@@ -47007,6 +46945,19 @@
     "source": "curse"
   },
   {
+    "id": 279587,
+    "name": "New Portable",
+    "summary": "Portable",
+    "numberOfDownloads": 5682,
+    "categories": [
+      "Mage"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 300701,
     "name": "EskaTracker : PetTracker",
     "summary": "An EskaTracker plugin which adds the support of PetTracker.",
@@ -47608,6 +47559,20 @@
     "source": "curse"
   },
   {
+    "id": 337191,
+    "name": "WhatADrop",
+    "summary": "WhatADrop is a very small addon that will add tooltips to your Keystones",
+    "numberOfDownloads": 1377,
+    "categories": [
+      "Tooltip",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 49489,
     "name": "Otis",
     "summary": "adds navigation buttons to Encounter Journal",
@@ -47630,20 +47595,6 @@
       "Tooltip",
       "Auction & Economy",
       "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 410116,
-    "name": "Mega Macro",
-    "summary": "Overhauled macro system for World of Warcraft",
-    "numberOfDownloads": 319,
-    "categories": [
-      "Miscellaneous",
-      "Action Bars"
     ],
     "flavors": [
       "wow_retail"
@@ -47877,6 +47828,20 @@
       "Combat"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 39054,
+    "name": "zz_Money",
+    "summary": "money broker",
+    "numberOfDownloads": 21693,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -48479,20 +48444,6 @@
     "source": "curse"
   },
   {
-    "id": 39075,
-    "name": "zz_Friends",
-    "summary": "Broker for Friends and Guildmates online",
-    "numberOfDownloads": 6386,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 22595,
     "name": "BuffBroker",
     "summary": "Profiles party/raid members, and suggests the most appropriate buffs you can cast. Like a tiny smart player that thinks for ...",
@@ -48819,6 +48770,20 @@
     "numberOfDownloads": 1541,
     "categories": [
       "Plugins",
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 407211,
+    "name": "ReStack",
+    "summary": "Addons for restacking immature venom sac",
+    "numberOfDownloads": 189,
+    "categories": [
+      "Bags & Inventory",
       "Miscellaneous"
     ],
     "flavors": [
@@ -50575,6 +50540,20 @@
     "source": "curse"
   },
   {
+    "id": 28006,
+    "name": "Broker Pack",
+    "summary": "Broker Pack of available zz Broker",
+    "numberOfDownloads": 11770,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 51580,
     "name": "LibChatAnims",
     "summary": "UIFrameFlash to Animation conversion library for Floating Chat Frame functions.",
@@ -51360,22 +51339,6 @@
     "source": "curse"
   },
   {
-    "id": 101536,
-    "name": "Achievement Hunter",
-    "summary": "Hunt for all the achievements!",
-    "numberOfDownloads": 4389,
-    "categories": [
-      "Achievements",
-      "Quests & Leveling",
-      "Minigames",
-      "Professions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 339906,
     "name": "Jump Counter (Classic)",
     "summary": "Counts how many times you jump",
@@ -51461,6 +51424,22 @@
     "source": "curse"
   },
   {
+    "id": 356042,
+    "name": "UberInventory Reborn",
+    "summary": "UberInventory Reborn is an inventory & storage tracking addon",
+    "numberOfDownloads": 2413,
+    "categories": [
+      "Guild",
+      "Tooltip",
+      "Mail",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 377697,
     "name": "ScalzBam",
     "summary": "BAM goes the crit highscore!",
@@ -51473,20 +51452,6 @@
     ],
     "flavors": [
       "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 39074,
-    "name": "zz_Infoclock",
-    "summary": "Broker AddOn for time, latency and fps",
-    "numberOfDownloads": 9688,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
     ],
     "source": "curse"
   },
@@ -52228,20 +52193,6 @@
     "source": "curse"
   },
   {
-    "id": 28006,
-    "name": "Broker Pack",
-    "summary": "Broker Pack of available zz Broker",
-    "numberOfDownloads": 11623,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 87297,
     "name": "Titan Panel [Seal Of Tempered Fate]",
     "summary": "Titan Panel plug that displays the current Seals Of Tempered Fate.",
@@ -52699,22 +52650,6 @@
     "categories": [
       "Combat",
       "Hunter"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 368844,
-    "name": "Recent",
-    "summary": "automatic personal loot recap",
-    "numberOfDownloads": 803,
-    "categories": [
-      "Bags & Inventory",
-      "Achievements",
-      "Transmogrification",
-      "Companions"
     ],
     "flavors": [
       "wow_retail"
@@ -53265,22 +53200,6 @@
     "source": "curse"
   },
   {
-    "id": 356042,
-    "name": "UberInventory Reborn",
-    "summary": "UberInventory Reborn is an inventory & storage tracking addon",
-    "numberOfDownloads": 2357,
-    "categories": [
-      "Bags & Inventory",
-      "Guild",
-      "Tooltip",
-      "Mail"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 385526,
     "name": "OnyCloakEquip",
     "summary": "Automatically (un)equips Onyxia Scale Cloak when needed",
@@ -53375,6 +53294,22 @@
     "categories": [
       "Map & Minimap",
       "Achievements"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 368844,
+    "name": "Recent",
+    "summary": "automatic personal loot recap",
+    "numberOfDownloads": 841,
+    "categories": [
+      "Achievements",
+      "Companions",
+      "Bags & Inventory",
+      "Transmogrification"
     ],
     "flavors": [
       "wow_retail"
@@ -55363,6 +55298,19 @@
     "source": "curse"
   },
   {
+    "id": 392710,
+    "name": "DigDug",
+    "summary": "Corrects the archaeology dig site progress bar to display nine segments instead of six",
+    "numberOfDownloads": 374,
+    "categories": [
+      "Archaeology"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 292843,
     "name": "LibAuras",
     "summary": "Buff/Debuff Library",
@@ -55910,20 +55858,6 @@
     "source": "curse"
   },
   {
-    "id": 39076,
-    "name": "zz_Bags",
-    "summary": "Broker displaying free/used/available bagspace ",
-    "numberOfDownloads": 4522,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 373892,
     "name": "oUF_Nihlathak",
     "summary": "Elegant and powerful unit frame layout based on oUF.",
@@ -56297,23 +56231,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 407154,
-    "name": "AbyssUI Classic",
-    "summary": " minimalist Classic World of Warcraft interface",
-    "numberOfDownloads": 222,
-    "categories": [
-      "HUDs",
-      "Class",
-      "Unit Frames",
-      "Miscellaneous",
-      "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -57207,19 +57124,6 @@
     "source": "curse"
   },
   {
-    "id": 348449,
-    "name": "MythicPlusDrop",
-    "summary": "MythicPlusDrop",
-    "numberOfDownloads": 1518,
-    "categories": [
-      "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 34640,
     "name": "iMoney",
     "summary": "The money display for your broker bar!",
@@ -57299,6 +57203,20 @@
     "numberOfDownloads": 91,
     "categories": [
       "Development Tools"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 359645,
+    "name": "ItemCountTooltip",
+    "summary": "ItemCountTooltip-1.0",
+    "numberOfDownloads": 276,
+    "categories": [
+      "Tooltip",
+      "Bags & Inventory"
     ],
     "flavors": [
       "wow_retail"
@@ -57401,6 +57319,22 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 408854,
+    "name": "Stea Summon",
+    "summary": "One button summoning, shared summoning list...",
+    "numberOfDownloads": 308,
+    "categories": [
+      "Action Bars",
+      "Chat & Communication",
+      "Miscellaneous",
+      "Warlock"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -58627,20 +58561,6 @@
       "Map & Minimap"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 88756,
-    "name": "Favorite Contacts",
-    "summary": "Adds buttons to the mail frame for easy access of your favorite contacts",
-    "numberOfDownloads": 7033,
-    "categories": [
-      "Mail"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -60841,19 +60761,6 @@
     "source": "curse"
   },
   {
-    "id": 340449,
-    "name": "TooltipNotes (Classic)",
-    "summary": "Set notes on player and NPC mousover tooltips. (made for classic, should work on retail too)",
-    "numberOfDownloads": 4980,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 52088,
     "name": "clcInfo_Hunter",
     "summary": "clcInfo rotation module for Hunters",
@@ -60944,6 +60851,19 @@
     "categories": [
       "Miscellaneous",
       "Auction & Economy"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 348692,
+    "name": "QuickChat ",
+    "summary": "QuickChat",
+    "numberOfDownloads": 826,
+    "categories": [
+      "Chat & Communication"
     ],
     "flavors": [
       "wow_retail"
@@ -62192,22 +62112,6 @@
       "Unit Frames"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 289574,
-    "name": "Def's Toolbox",
-    "summary": "A collection of miscellaneous, useful utilities",
-    "numberOfDownloads": 35936,
-    "categories": [
-      "Action Bars",
-      "Miscellaneous",
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -63943,6 +63847,20 @@
     "source": "curse"
   },
   {
+    "id": 315430,
+    "name": "MyShare",
+    "summary": "An addon to automatically share gold with your guild bank.",
+    "numberOfDownloads": 946,
+    "categories": [
+      "Bags & Inventory",
+      "Guild"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 382116,
     "name": "Potion Seller",
     "summary": "Addon adjusted to suit guild needs",
@@ -64360,22 +64278,6 @@
     "source": "curse"
   },
   {
-    "id": 408854,
-    "name": "Stea Summon",
-    "summary": "One button summoning, shared summoning list...",
-    "numberOfDownloads": 207,
-    "categories": [
-      "Action Bars",
-      "Chat & Communication",
-      "Miscellaneous",
-      "Warlock"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 27295,
     "name": "TranqShotMonitor",
     "summary": "Displays what buff was dispelled by Tranq Shot, Shiv or Soothe.",
@@ -64705,6 +64607,22 @@
       "Quests & Leveling"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 289574,
+    "name": "Def's Toolbox",
+    "summary": "A collection of miscellaneous, useful utilities",
+    "numberOfDownloads": 35944,
+    "categories": [
+      "Action Bars",
+      "Bags & Inventory",
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -66658,6 +66576,23 @@
     "source": "curse"
   },
   {
+    "id": 403835,
+    "name": "Morthalin Raid Tools",
+    "summary": "Tools for logging kills and attendance statistics",
+    "numberOfDownloads": 195,
+    "categories": [
+      "Tooltip",
+      "Guild",
+      "Minigames",
+      "Boss Encounters",
+      "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 86145,
     "name": "XoneFobic's SpellFlash: Monk",
     "summary": "XoneFobic's Spellflash Rotation Module for the Monk",
@@ -67144,23 +67079,6 @@
     "source": "curse"
   },
   {
-    "id": 403835,
-    "name": "Morthalin Raid Tools",
-    "summary": "Tools for logging kills and attendance statistics",
-    "numberOfDownloads": 170,
-    "categories": [
-      "Buffs & Debuffs",
-      "Minigames",
-      "Guild",
-      "Boss Encounters",
-      "Tooltip"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 270904,
     "name": "Tabbind",
     "summary": "Simple addon that binds tab to targeting only enemy players when entering pvp environment like bgs or arena and reverts it when you leave. Simple and works flawlessly. ",
@@ -67628,6 +67546,19 @@
     "numberOfDownloads": 2138,
     "categories": [
       "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 352070,
+    "name": "FastMarks",
+    "summary": "FastMarks",
+    "numberOfDownloads": 311,
+    "categories": [
+      "Boss Encounters"
     ],
     "flavors": [
       "wow_retail"
@@ -68713,19 +68644,6 @@
     "source": "curse"
   },
   {
-    "id": 348692,
-    "name": "QuickChat ",
-    "summary": "QuickChat",
-    "numberOfDownloads": 783,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 301371,
     "name": "Memantine",
     "summary": "Automatically change loot specialization on encounter start",
@@ -68976,20 +68894,6 @@
     "numberOfDownloads": 794,
     "categories": [
       "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 315430,
-    "name": "MyShare",
-    "summary": "An addon to automatically share gold with your guild bank.",
-    "numberOfDownloads": 942,
-    "categories": [
-      "Bags & Inventory",
-      "Guild"
     ],
     "flavors": [
       "wow_retail"
@@ -69813,19 +69717,6 @@
     "numberOfDownloads": 3084,
     "categories": [
       "Companions"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 392710,
-    "name": "DigDug",
-    "summary": "Corrects the archaeology dig site progress bar to display nine segments instead of six",
-    "numberOfDownloads": 110,
-    "categories": [
-      "Archaeology"
     ],
     "flavors": [
       "wow_retail"
@@ -70860,6 +70751,19 @@
       "Unit Frames",
       "Combat",
       "Mage"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 410561,
+    "name": "AffixSchedule",
+    "summary": "AffixSchedule",
+    "numberOfDownloads": 119,
+    "categories": [
+      "Tooltip"
     ],
     "flavors": [
       "wow_retail"
@@ -72599,20 +72503,6 @@
     "source": "curse"
   },
   {
-    "id": 359645,
-    "name": "ItemCountTooltip",
-    "summary": "ItemCountTooltip-1.0",
-    "numberOfDownloads": 190,
-    "categories": [
-      "Bags & Inventory",
-      "Tooltip"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 16613,
     "name": "Who TF R U (formally Chat Notes)",
     "summary": "Who TF R U (formally Chat Notes)",
@@ -72965,19 +72855,6 @@
       "Minigames",
       "Boss Encounters",
       "Quests & Leveling"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 279587,
-    "name": "New Portable",
-    "summary": "Portable",
-    "numberOfDownloads": 5391,
-    "categories": [
-      "Mage"
     ],
     "flavors": [
       "wow_retail"
@@ -73690,19 +73567,6 @@
     "numberOfDownloads": 10150,
     "categories": [
       "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 349798,
-    "name": "QuestTrackerMover",
-    "summary": "QuestTrackerMover",
-    "numberOfDownloads": 575,
-    "categories": [
-      "Miscellaneous"
     ],
     "flavors": [
       "wow_retail"
@@ -78782,19 +78646,6 @@
     "source": "curse"
   },
   {
-    "id": 86475,
-    "name": "zzCR",
-    "summary": "Combat-Resurrection-Monitor",
-    "numberOfDownloads": 2447,
-    "categories": [
-      "Buffs & Debuffs"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 69462,
     "name": "KlaxxiTargets",
     "summary": "Places Raid Markers on Klaxxi Bosses in the Siege of Orgrimmar",
@@ -79259,6 +79110,20 @@
       "Bags & Inventory"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 39073,
+    "name": "zz_Mailbox",
+    "summary": "mail broker",
+    "numberOfDownloads": 13176,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -79766,6 +79631,19 @@
     "numberOfDownloads": 25635,
     "categories": [
       "Quests & Leveling"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 344203,
+    "name": "GroupLanguage",
+    "summary": "Show what a Language the others talk",
+    "numberOfDownloads": 283,
+    "categories": [
+      "Chat & Communication"
     ],
     "flavors": [
       "wow_retail"
@@ -81816,6 +81694,19 @@
     "source": "curse"
   },
   {
+    "id": 340449,
+    "name": "TooltipNotes (Classic)",
+    "summary": "Set notes on player and NPC mousover tooltips. (made for classic, should work on retail too)",
+    "numberOfDownloads": 5053,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 20178,
     "name": "Vlud's Item Finder",
     "summary": "Locates items on all chars",
@@ -81979,19 +81870,6 @@
     "source": "curse"
   },
   {
-    "id": 410561,
-    "name": "AffixSchedule",
-    "summary": "AffixSchedule",
-    "numberOfDownloads": 89,
-    "categories": [
-      "Tooltip"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 52075,
     "name": "MagicRepair",
     "summary": "MagicRepair",
@@ -82031,6 +81909,19 @@
       "Plugins",
       "Unit Frames",
       "Druid"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 84059,
+    "name": "zz_GarrisonToggle",
+    "summary": "Simple LDB for Garrison windows toggle.",
+    "numberOfDownloads": 8906,
+    "categories": [
+      "Data Broker"
     ],
     "flavors": [
       "wow_retail"
@@ -82975,6 +82866,19 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 410714,
+    "name": "OnCast (classic)",
+    "summary": "Better, simple, flexible macros for announcing your spells and abilities",
+    "numberOfDownloads": 84,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
@@ -84284,6 +84188,18 @@
     "flavors": [
       "wow_retail"
     ],
+    "source": "curse"
+  },
+  {
+    "id": 409913,
+    "name": "Classic Floating Combat Text",
+    "summary": "Floating Combat Text Addon",
+    "numberOfDownloads": 93,
+    "categories": [
+      "Combat",
+      "Damage Dealer"
+    ],
+    "flavors": [],
     "source": "curse"
   },
   {
@@ -86083,6 +85999,20 @@
       "Chat & Communication"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 39075,
+    "name": "zz_Friends",
+    "summary": "Broker for Friends and Guildmates online",
+    "numberOfDownloads": 6827,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -89457,20 +89387,6 @@
     "source": "curse"
   },
   {
-    "id": 352260,
-    "name": "Notation",
-    "summary": "Adds custom notes in item tooltips.",
-    "numberOfDownloads": 94,
-    "categories": [
-      "Tooltip",
-      "Miscellaneous"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 387585,
     "name": "Kiminfo",
     "summary": "A info bar.",
@@ -90503,20 +90419,6 @@
     "source": "curse"
   },
   {
-    "id": 337191,
-    "name": "WhatADrop",
-    "summary": "WhatADrop is a very small addon that will add tooltips to your Keystones",
-    "numberOfDownloads": 1068,
-    "categories": [
-      "Bags & Inventory",
-      "Tooltip"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 290257,
     "name": "ClassicCal",
     "summary": "Brings back the old sun/moon time indicator on the Minimap from Classic and BC",
@@ -90692,20 +90594,6 @@
     "categories": [
       "Battle Pets",
       "Achievements"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 330480,
-    "name": "Simple Guild Raid Invite",
-    "summary": "Invite online guild members to your raid",
-    "numberOfDownloads": 85,
-    "categories": [
-      "Guild",
-      "Miscellaneous"
     ],
     "flavors": [
       "wow_retail"
@@ -91155,19 +91043,6 @@
     "source": "curse"
   },
   {
-    "id": 348252,
-    "name": "AutoInvitation for BfA",
-    "summary": "Auto Invite",
-    "numberOfDownloads": 94,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 78454,
     "name": "Gag_Ankylos",
     "summary": "Gag pack from the guild Ankylos",
@@ -91177,6 +91052,20 @@
       "Chat & Communication"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 22761,
+    "name": "MiscHelper",
+    "summary": "misc functions for easier playing",
+    "numberOfDownloads": 7031,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -91472,6 +91361,19 @@
     "name": "ModMod",
     "summary": "Modified Modifier: Bind new key combinations by creating custom \"modifier\" keys.",
     "numberOfDownloads": 1712,
+    "categories": [
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 409956,
+    "name": "AzerPUG-GameUtility-Core",
+    "summary": "An addon that provides several utility aspects for the game.",
+    "numberOfDownloads": 57,
     "categories": [
       "Miscellaneous"
     ],
@@ -92130,20 +92032,6 @@
       "Companions"
     ],
     "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 22761,
-    "name": "MiscHelper",
-    "summary": "misc functions for easier playing",
-    "numberOfDownloads": 6802,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -92844,6 +92732,20 @@
       "Miscellaneous"
     ],
     "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 39076,
+    "name": "zz_Bags",
+    "summary": "Broker displaying free/used/available bagspace ",
+    "numberOfDownloads": 4867,
+    "categories": [
+      "Data Broker"
+    ],
+    "flavors": [
+      "wow_classic",
       "wow_retail"
     ],
     "source": "curse"
@@ -96987,19 +96889,6 @@
     "source": "curse"
   },
   {
-    "id": 352617,
-    "name": "TurnTheHeadOff for BfA",
-    "summary": "TurnTheHeadOff",
-    "numberOfDownloads": 38,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 27440,
     "name": "Reaper",
     "summary": "Reaper... Death to annoying features of WoW",
@@ -97611,19 +97500,6 @@
     "numberOfDownloads": 78,
     "categories": [
       "Development Tools"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 352070,
-    "name": "FastMarks",
-    "summary": "FastMarks",
-    "numberOfDownloads": 202,
-    "categories": [
-      "Boss Encounters"
     ],
     "flavors": [
       "wow_retail"
@@ -99362,6 +99238,19 @@
     "source": "curse"
   },
   {
+    "id": 402262,
+    "name": "GildenSteuer",
+    "summary": "GildenSteuer",
+    "numberOfDownloads": 53,
+    "categories": [
+      "Guild"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 102390,
     "name": "NoNameNoFood",
     "summary": "Share cooking recipes between guildmates",
@@ -100415,19 +100304,6 @@
     "source": "curse"
   },
   {
-    "id": 84059,
-    "name": "zz_GarrisonToggle",
-    "summary": "Simple LDB for Garrison windows toggle.",
-    "numberOfDownloads": 8829,
-    "categories": [
-      "Data Broker"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 102497,
     "name": "Achievement Jam!",
     "summary": "Brings arcade nostalgia to World of Warcraft by congratulating your guild mates with iconic phrases from NBA Jam.",
@@ -100580,19 +100456,6 @@
     "numberOfDownloads": 1674,
     "categories": [
       "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 409956,
-    "name": "AzerPUG-GameUtility-Core",
-    "summary": "An addon that provides several utility aspects for the game.",
-    "numberOfDownloads": 27,
-    "categories": [
-      "Miscellaneous"
     ],
     "flavors": [
       "wow_retail"
@@ -102087,19 +101950,6 @@
     "numberOfDownloads": 2546,
     "categories": [
       "Boss Encounters"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 347357,
-    "name": "CatchwordAlert for BfA",
-    "summary": "CatchwordAlert",
-    "numberOfDownloads": 54,
-    "categories": [
-      "Chat & Communication"
     ],
     "flavors": [
       "wow_retail"
@@ -108165,18 +108015,6 @@
     "source": "curse"
   },
   {
-    "id": 409913,
-    "name": "Classic Floating Combat Text",
-    "summary": "Floating Combat Text Addon",
-    "numberOfDownloads": 68,
-    "categories": [
-      "Damage Dealer",
-      "Combat"
-    ],
-    "flavors": [],
-    "source": "curse"
-  },
-  {
     "id": 299771,
     "name": "GoWCompass",
     "summary": "A compass based of GoW (2018)",
@@ -108455,6 +108293,19 @@
     ],
     "flavors": [
       "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 304317,
+    "name": "DaVis",
+    "summary": "DaVis - Damage Visualisation",
+    "numberOfDownloads": 206,
+    "categories": [
+      "Combat"
+    ],
+    "flavors": [
       "wow_retail"
     ],
     "source": "curse"
@@ -109094,19 +108945,6 @@
       "Chat & Communication",
       "Data Broker",
       "Roleplay",
-      "Guild"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 402262,
-    "name": "GildenSteuer",
-    "summary": "GildenSteuer",
-    "numberOfDownloads": 25,
-    "categories": [
       "Guild"
     ],
     "flavors": [
@@ -113344,6 +113182,19 @@
     "source": "curse"
   },
   {
+    "id": 352617,
+    "name": "TurnTheHeadOff for BfA",
+    "summary": "TurnTheHeadOff",
+    "numberOfDownloads": 157,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 86090,
     "name": "Helm",
     "summary": "An addon to autoswitch your helm",
@@ -113435,19 +113286,6 @@
     ],
     "flavors": [
       "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 410714,
-    "name": "OnCast (classic)",
-    "summary": "Better, simple, flexible macros for announcing your spells and abilities",
-    "numberOfDownloads": 62,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_classic"
     ],
     "source": "curse"
   },
@@ -113703,6 +113541,19 @@
     "source": "curse"
   },
   {
+    "id": 86475,
+    "name": "zzCR",
+    "summary": "Combat-Resurrection-Monitor",
+    "numberOfDownloads": 2672,
+    "categories": [
+      "Buffs & Debuffs"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 285228,
     "name": "CornerToggle",
     "summary": "A simple addon to toggle the visibility of frames by the screen corner ",
@@ -113814,12 +113665,39 @@
     "source": "curse"
   },
   {
+    "id": 352260,
+    "name": "Notation",
+    "summary": "Adds custom notes in item tooltips.",
+    "numberOfDownloads": 135,
+    "categories": [
+      "Tooltip",
+      "Miscellaneous"
+    ],
+    "flavors": [
+      "wow_classic"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 295122,
     "name": "SharpRangeCollector",
     "summary": "Collects IsItemInRange() correlation data.",
     "numberOfDownloads": 88,
     "categories": [
       "Development Tools"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 348252,
+    "name": "AutoInvitation for BfA",
+    "summary": "Auto Invite",
+    "numberOfDownloads": 203,
+    "categories": [
+      "Chat & Communication"
     ],
     "flavors": [
       "wow_retail"
@@ -114119,20 +113997,6 @@
       "Miscellaneous",
       "Guild",
       "Boss Encounters",
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
-    "id": 407211,
-    "name": "ReStack",
-    "summary": "Addons for restacking immature venom sac",
-    "numberOfDownloads": 20,
-    "categories": [
-      "Miscellaneous",
       "Bags & Inventory"
     ],
     "flavors": [
@@ -115653,19 +115517,6 @@
     "source": "curse"
   },
   {
-    "id": 344203,
-    "name": "GroupLanguage",
-    "summary": "Show what a Language the others talk",
-    "numberOfDownloads": 206,
-    "categories": [
-      "Chat & Communication"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 294282,
     "name": "Forgent's Utility",
     "summary": "Helpful tweaks.",
@@ -116651,6 +116502,19 @@
     "source": "curse"
   },
   {
+    "id": 410566,
+    "name": "Kallye Raid Frames",
+    "summary": "Highlight Raid Frames on low health",
+    "numberOfDownloads": 7,
+    "categories": [
+      "Healer",
+      "Raid Frames",
+      "Buffs & Debuffs"
+    ],
+    "flavors": [],
+    "source": "curse"
+  },
+  {
     "id": 398354,
     "name": "Reported",
     "summary": "Remembers your cheating reports.",
@@ -116950,6 +116814,20 @@
     "source": "curse"
   },
   {
+    "id": 410934,
+    "name": "Better Damage",
+    "summary": "Changes WOW's damage text font.",
+    "numberOfDownloads": 4,
+    "categories": [
+      "Combat"
+    ],
+    "flavors": [
+      "wow_classic",
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
     "id": 301055,
     "name": "Briefings",
     "summary": "An addon that lets you store tactic explanations in a central location and send them to chat with a simple command.",
@@ -117230,19 +117108,6 @@
     "source": "curse"
   },
   {
-    "id": 304317,
-    "name": "DaVis",
-    "summary": "DaVis - Damage Visualisation",
-    "numberOfDownloads": 186,
-    "categories": [
-      "Combat"
-    ],
-    "flavors": [
-      "wow_retail"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 389023,
     "name": "HealCommChecker",
     "summary": "Find out who is using HealComm in your raid/party",
@@ -117257,16 +117122,29 @@
     "source": "curse"
   },
   {
-    "id": 410566,
-    "name": "Kallye Raid Frames",
-    "summary": "Highlight Raid Frames on low health",
-    "numberOfDownloads": 1,
+    "id": 408393,
+    "name": "Specialization Specific Keybinds",
+    "summary": "An addon for World of Warcraft that enables per-specialization key binding support",
+    "numberOfDownloads": 4,
     "categories": [
-      "Raid Frames",
-      "Buffs & Debuffs",
-      "Healer"
+      "Action Bars"
     ],
-    "flavors": [],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 347357,
+    "name": "CatchwordAlert for BfA",
+    "summary": "CatchwordAlert",
+    "numberOfDownloads": 97,
+    "categories": [
+      "Chat & Communication"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
     "source": "curse"
   },
   {
@@ -118695,23 +118573,6 @@
     "source": "curse"
   },
   {
-    "id": 411405,
-    "name": "All in one minimalistic",
-    "summary": "All-in-one minimalistic addon for World of Warcraft: Classic",
-    "numberOfDownloads": 6,
-    "categories": [
-      "Unit Frames",
-      "Tooltip",
-      "Auction & Economy",
-      "Plugins",
-      "Bags & Inventory"
-    ],
-    "flavors": [
-      "wow_classic"
-    ],
-    "source": "curse"
-  },
-  {
     "id": 395022,
     "name": "Always Show Level",
     "summary": "Always show character level when in cities, inns, or combat.",
@@ -119505,6 +119366,20 @@
     "categories": [
       "Buffs & Debuffs",
       "Combat"
+    ],
+    "flavors": [
+      "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 411665,
+    "name": "Global TMog",
+    "summary": "Account Wide Outfits",
+    "numberOfDownloads": 0,
+    "categories": [
+      "Roleplay",
+      "Transmogrification"
     ],
     "flavors": [
       "wow_retail"
@@ -121326,8 +121201,8 @@
   {
     "id": 411445,
     "name": "gbTools",
-    "summary": "Suite of tooltip enhancements.",
-    "numberOfDownloads": 2,
+    "summary": "A suite of lightweight tooltip tweaks.",
+    "numberOfDownloads": 11,
     "categories": [
       "Tooltip"
     ],
@@ -121513,6 +121388,23 @@
     ],
     "flavors": [
       "wow_retail"
+    ],
+    "source": "curse"
+  },
+  {
+    "id": 411405,
+    "name": "All in one minimalistic",
+    "summary": "All-in-one minimalistic addon for World of Warcraft: Classic",
+    "numberOfDownloads": 59,
+    "categories": [
+      "Tooltip",
+      "Unit Frames",
+      "Plugins",
+      "Auction & Economy",
+      "Bags & Inventory"
+    ],
+    "flavors": [
+      "wow_classic"
     ],
     "source": "curse"
   },
