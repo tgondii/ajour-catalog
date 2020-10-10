@@ -29,7 +29,7 @@ do
       "categories": [.categories[] | .name],
       "flavors": [.gameVersionLatestFiles[] | .gameVersionFlavor] | unique,
       "source": "curse" })' > $new
-  jq -s add $running $new > $all
+  jq -s -c add $running $new > $all
   cat $all > $running
   index=$(( $index + $page_size ))
 done
