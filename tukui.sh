@@ -15,6 +15,10 @@ all=$tmp/all.json
 curl -s $retail_endpoint | jq '[.[] | . + { "flavors": ["wow_retail"] }]' > $retail
 curl -s $classic_endpoint | jq '[.[] | . + { "flavors": ["wow_classic"] }]' > $classic
 jq -s add $retail $classic > $all
+if [ $(jq 'length' $all) -eq "0" ]; then
+  echo "Error: Found 0 tukui addons"
+  exit 1;
+fi
 jq -c \
   'map(
   {

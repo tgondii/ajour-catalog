@@ -34,5 +34,10 @@ do
   index=$(( $index + $page_size ))
 done
 
+if [ $(jq 'length' $all) -eq "0" ]; then
+  echo "Error: Found 0 curse addons"
+  exit 1;
+fi
+
 cat $all > $1
 rm -rf $tmp
