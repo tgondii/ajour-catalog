@@ -23,7 +23,7 @@ do
   echo $data | jq \
     'map({
       "id": .id,
-      "website_url": .websiteUrl,
+      "websiteUrl": .websiteUrl,
       "name": .name,
       "summary": .summary,
       "numberOfDownloads": .downloadCount,
