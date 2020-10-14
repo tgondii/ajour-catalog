@@ -23,6 +23,7 @@ jq -c \
   'map(
   {
     "id": .id|tonumber,
+    "website_url": .web_url,
     "name": .name,
     "summary": .small_desc|gsub("[\\r\\n\\t]"; ""),
     "numberOfDownloads": .downloads|tonumber,
