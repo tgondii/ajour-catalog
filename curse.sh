@@ -24,7 +24,7 @@ do
     'map({
       "id": .id,
       "websiteUrl": .websiteUrl,
-      "dateReleased": .dateReleased,
+      "dateReleased": (if (.dateReleased == null) then "" else .dateReleased end),
       "name": .name,
       "summary": .summary,
       "numberOfDownloads": .downloadCount,
