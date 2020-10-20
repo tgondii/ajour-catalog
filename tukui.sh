@@ -24,6 +24,7 @@ jq -c \
   {
     "id": .id|tonumber,
     "websiteUrl": .web_url,
+    "dateReleased": .lastupdate,
     "name": .name,
     "summary": .small_desc|gsub("[\\r\\n\\t]"; ""),
     "numberOfDownloads": .downloads|tonumber,

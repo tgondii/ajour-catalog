@@ -24,6 +24,7 @@ do
     'map({
       "id": .id,
       "websiteUrl": .websiteUrl,
+      "dateReleased": .dateReleased,
       "name": .name,
       "summary": .summary,
       "numberOfDownloads": .downloadCount,
