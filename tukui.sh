@@ -12,8 +12,8 @@ tmp=$(mktemp -d -t ci-XXXXXXXXXX)
 retail=$tmp/retail.json
 classic=$tmp/classic.json
 all=$tmp/all.json
-curl -s $retail_endpoint | jq '[.[] | . + { "flavors": ["wow_retail"] }]' > $retail
-curl -s $classic_endpoint | jq '[.[] | . + { "flavors": ["wow_classic"] }]' > $classic
+curl -s $retail_endpoint | jq '[.[] | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": .patch }] }]' > $retail
+curl -s $classic_endpoint | jq '[.[] | . + { "flavors": ["wow_classic"], "gameVersions": [{"flavor": "wow_classic", "gameVersion": .patch }] }]' > $classic
 jq -s add $retail $classic > $all
 if [ $(jq 'length' $all) -eq "0" ]; then
   echo "Error: Found 0 tukui addons"
@@ -30,6 +30,7 @@ jq -c \
     "numberOfDownloads": .downloads|tonumber,
     "categories": (if (.category == null) then [] else [.category] end),
     "flavors": .flavors,
+    "gameVersions": .gameVersions,
     "source": "tukui"
   })' $all > $1
 rm -rf tmp
