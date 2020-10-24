@@ -30,6 +30,14 @@ do
       "numberOfDownloads": .downloadCount,
       "categories": [.categories[] | .name],
       "flavors": [.gameVersionLatestFiles[] | .gameVersionFlavor] | unique,
+      "gameVersions":
+        [.gameVersionLatestFiles[] | select(.fileType == 1)] |
+        sort_by(.projectFileId) |
+        reverse |
+        group_by(.gameVersionFlavor) |
+        [.[0][0], .[1][0]] |
+        del(.[] | nulls) |
+        map({ flavor: .gameVersionFlavor, gameVersion: .gameVersion }),
       "source": "curse" })' > $new
   jq -s -c add $running $new > $all
   cat $all > $running
