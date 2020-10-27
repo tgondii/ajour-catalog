@@ -22,22 +22,21 @@ do
   number_of_addons=$(echo $data | jq '. | length')
   echo $data | jq \
     'map({
-      "id": .id,
-      "websiteUrl": .websiteUrl,
-      "dateReleased": (if (.dateReleased == null) then "" else .dateReleased end),
-      "name": .name,
-      "summary": .summary,
-      "numberOfDownloads": .downloadCount,
-      "categories": [.categories[] | .name],
-      "flavors": [.gameVersionLatestFiles[] | .gameVersionFlavor] | unique,
-      "gameVersions":
-        [.gameVersionLatestFiles[] | select(.fileType == 1)] |
-        sort_by(.projectFileId) |
-        reverse |
+      id: .id,
+      websiteUrl: .websiteUrl,
+      dateReleased: (if (.dateReleased == null) then "" else .dateReleased end),
+      name: .name,
+      summary: .summary,
+      numberOfDownloads: .downloadCount,
+      categories: [.categories[] | .name],
+      flavors: [.gameVersionLatestFiles[] | .gameVersionFlavor] | unique,
+      gameVersions: .gameVersionLatestFiles |
         group_by(.gameVersionFlavor) |
-        [.[0][0], .[1][0]] |
-        del(.[] | nulls) |
-        map({ flavor: .gameVersionFlavor, gameVersion: .gameVersion }),
+        map(
+          group_by(.fileType) |
+          map(sort_by(.projectFileId) | reverse) | flatten
+        ) |
+        map({ flavor: .[0].gameVersionFlavor, gameVersion: .[0].gameVersion }),
       "source": "curse" })' > $new
   jq -s -c add $running $new > $all
   cat $all > $running
