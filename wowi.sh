@@ -67,7 +67,7 @@ curl -s $endpoint | jq -c \
       {
         id: .id,
         websiteUrl: .fileInfoUri,
-        dateReleased: .lastUpdate,
+        dateReleased: .lastUpdate | tostring,
         name: .title,
         summary: "",
         numberOfDownloads: .downloads,
