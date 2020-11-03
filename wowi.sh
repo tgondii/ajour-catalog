@@ -63,7 +63,7 @@ curl -s $endpoint | jq -c \
     ] as $categories |
       .categoryId as $categoryId |
       (if (.categoryId == 160) then "wow_classic" else "wow_retail" end) as $flavor |
-      (if (.gameVersions | length) > 0 then .gameVersions[0] else 0 end) as $gameVersion |
+      (if (.gameVersions | length) > 0 then .gameVersions[0] else "0" end) as $gameVersion |
       {
         id: .id,
         websiteUrl: .fileInfoUri,
