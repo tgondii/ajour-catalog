@@ -1,12 +1,12 @@
 on: 
-  push:
+  workflow_dispatch:
   schedule:
     - cron:  '0 0 * * *'
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    name: Fetch CurseForge addons
+    name: Fetch addon data
     steps:
     - uses: actions/checkout@v2
     - name: Action
