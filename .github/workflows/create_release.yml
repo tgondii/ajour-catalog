@@ -18,7 +18,7 @@ jobs:
         ./curse.sh curse.json
         ./tukui.sh tukui.json
         ./wowi.sh wowi.json
-        jq -c -s '.[0] + .[1]' wowi.json tukui.json curse.json > catalog.json
+        jq -c -s '.[0] + .[1] + .[2]' wowi.json tukui.json curse.json > catalog.json
 
     - name: Get current date
       id: date
