@@ -16,10 +16,10 @@ classic=$tmp/classic.json
 elvui=$tmp/elvui.json
 tukui=$tmp/tukui.json
 all=$tmp/all.json
-curl -s $retail_endpoint | jq '[.[] | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": .patch }] }]' > $retail
-curl -s $classic_endpoint | jq '[.[] | . + { "flavors": ["wow_classic"], "gameVersions": [{"flavor": "wow_classic", "gameVersion": .patch }] }]' > $classic
-curl -s $elvui_endpoint | jq '[. | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": .patch }] }]' > $elvui
-curl -s $tukui_enspoint | jq '[. | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": .patch }] }]' > $tukui
+curl -s $retail_endpoint | jq '[.[] | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": (if (.patch == null) then "" else .patch end) }] }]' > $retail
+curl -s $classic_endpoint | jq '[.[] | . + { "flavors": ["wow_classic"], "gameVersions": [{"flavor": "wow_classic", "gameVersion": (if (.patch == null) then "" else .patch end) }] }]' > $classic
+curl -s $elvui_endpoint | jq '[. | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": (if (.patch == null) then "" else .patch end) }] }]' > $elvui
+curl -s $tukui_enspoint | jq '[. | . + { "flavors": ["wow_retail"], "gameVersions": [{"flavor": "wow_retail", "gameVersion": (if (.patch == null) then "" else .patch end) }] }]' > $tukui
 jq -s add $retail $classic $elvui $tukui > $all
 if [ $(jq 'length' $all) -eq "0" ]; then
   echo "Error: Found 0 tukui addons"
