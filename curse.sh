@@ -21,7 +21,9 @@ do
   data=$(curl -s $curse_endpoint)
   number_of_addons=$(echo $data | jq '. | length')
   echo $data | jq \
-    'map({
+    'map(
+      (if (.gameVersionLatestFiles | length) > 0 then .gameVersionLatestFiles else .latestFiles end) as $files |
+      {
       id: .id,
       websiteUrl: .websiteUrl,
       dateReleased: (if (.dateReleased == null) then "" else .dateReleased end),
@@ -29,14 +31,17 @@ do
       summary: .summary,
       numberOfDownloads: .downloadCount,
       categories: [.categories[] | .name],
-      flavors: [.gameVersionLatestFiles[] | .gameVersionFlavor] | unique,
-      gameVersions: .gameVersionLatestFiles |
+      flavors: [$files[] | .gameVersionFlavor] | unique,
+      gameVersions: $files |
         group_by(.gameVersionFlavor) |
         map(
           group_by(.fileType) |
           map(sort_by(.projectFileId) | reverse) | flatten
         ) |
-        map({ flavor: .[0].gameVersionFlavor, gameVersion: .[0].gameVersion }),
+          map({
+            flavor: .[0].gameVersionFlavor,
+            gameVersion: (if (.[0].gameVersion|type == "string") then .[0].gameVersion else (if (.[0].gameVersion|length > 0) then .[0].gameVersion[0] else "-" end) end)
+          }),
       "source": "curse" })' > $new
   jq -s -c add $running $new > $all
   cat $all > $running
